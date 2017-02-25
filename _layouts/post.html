@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div class="grid">
+<article class="post">
+
+  <div class="video">
+    <div class="col-8-12">
+      {% if page.media[0].type == "youtube" %}
+        {% assign youtube = page.media[0] %}
+        {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime %}
+      {% endif %}
+    </div>
+    <div class="col-4-12">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <dl>
+          <dt>Uitzenddatum</dt>
+          <dd>
+            <span class="post-date">
+              <span class="day">{{ page.date | date: "%d" }}</span>
+              <span class="aside">
+                <span class="month-year">
+                  <!-- Whitespace added for readability -->
+                  {% assign m = page.date | date: "%-m" %}
+                  {% case m %}
+                    {% when '1' %}januari
+                    {% when '2' %}februari
+                    {% when '3' %}maart
+                    {% when '4' %}april
+                    {% when '5' %}mei
+                    {% when '6' %}juni
+                    {% when '7' %}juli
+                    {% when '8' %}augustus
+                    {% when '9' %}september
+                    {% when '10' %}oktober
+                    {% when '11' %}november
+                    {% when '12' %}december
+                  {% endcase %}
+                  {{ page.date | date: "%Y" }}
+                </span>
+                <span class="time">
+                  {{ page.hour }}
+                </span
+              </span>
+            </span>
+          </dd>
+        </dl>
+        {% if page.ankers.size > 1 %}
+          {% include set-list.html %}
+          {% include anchor-list.html %}
+        {% else %}
+        <div class="col-1-2">
+         {% include set-list.html %}
+        </div>
+        <div class="col-1-2">
+         {% include anchor-list.html %}
+        </div>
+        {% endif %}
+        {% if page.moments %}
+        <div class="moments">
+          {% for moment in page.moments %}
+          <div class="col-1-2">
+          <div class="moment">
+            <a onclick="player.seekTo({{moment.timestamp}})" class="moment-stamp">
+            {{ moment.timestamp | divided_by: 60 | plus: 100 | slice: 1, 2 }}'{{ moment.timestamp | modulo: 60 | plus: 100 | slice: 1, 2 }}"
+            </a>
+            <span class="moment-description">{{moment.description}}</span>
+          </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if content %}
+        <div class="info">
+          {{content}}
+        </div>
+        {% endif %}
+  </div>
+</div>
+
+</article>
+</div>
+
+
+<div class="grid grid-pad">
+  <div class="rect-pagination">
+    <div class="rect-pagination-item prev">
+      {% if page.previous.url %}
+      <a href="{{page.previous.url}}">
+        <span class="nav-date">{{page.previous.date | date: "%d/%m/%Y"}}</span>
+        <span class="nav-title">{{page.previous.title}}</span>
+      </a>
+      {% endif %}
+    </div>
+
+    <div class="rect-pagination-item next">
+      <a href="{{page.next.url}}">
+        <span class="nav-date">{{page.next.date | date: "%d/%m/%Y"}}</span>
+        <span class="nav-title">{{page.next.title}}</span>
+      </a>
+    </div>
+  </div>
+</div>

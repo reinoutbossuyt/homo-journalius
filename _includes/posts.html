@@ -1,0 +1,20 @@
+<div class="scrollable">
+  <ul class="posts-list">
+    {% for post in site.posts reversed %}
+      <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}" style="background-image: url(/img/posts/large/{{post.youtubeid}}.jpg)">
+
+        {% if page.url == post.url %}
+          <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtubeid }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        {% else %}
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  <!--<img src="/img/posts/large/{{post.youtubeid}}.jpg">-->
+                  <span class="post-meta">
+                  {{ post.date | date: "%Y-%m-%d" }}</span>
+              </a>
+        {%endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

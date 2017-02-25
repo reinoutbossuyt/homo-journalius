@@ -1,0 +1,15 @@
+<dl class="anchor-list">
+  <dt class="anchor-term">Ankers</dt>
+  {% for current_anker in page.ankers %}
+  {% for anker in site.anchors %}
+  {% if anker.title == current_anker %}
+  <dd class="anchor-description">
+    <a href="{{anker.url}}">
+      {{anker.title}}
+      <img src="{{anker.icon}}" class="anchor-image">
+    </a>
+  </dd>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</dl>

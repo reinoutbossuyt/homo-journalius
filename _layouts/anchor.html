@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="grid">
+  <div class="col-3-12">
+    <img src="{{ page.icon }}">
+  </div>
+  <div class="col-9-12">
+    <h1 class="anchor-title">{{page.title}}</h1>
+    {% if page.birth != nil %}
+    <dl>
+      <dt>Geboren op</dt>
+      <dd>
+        {{page.birth}}
+      </dd>
+    </dl>
+    {% endif %}
+    {% if page.bio != nil %}
+    <dl>
+      <dt>Bio</dt>
+      <dd>
+        {{page.bio}}
+      </dd>
+    </dl>
+    {% endif %}
+    {% if page.quotes != nil %}
+    <dl>
+      <dt>Quotes</dt>
+      <dd>
+        {% for quote in page.quotes %}
+          <blockquote>
+          {{ quote.quote }}
+          </blockquote>
+          <p>{{ quote.source }}</p>
+        {% endfor %}
+      </dd>
+    </dl>
+    {% endif %}
+  </div>
+</div>
+
+<div class="grid">
+  <h3 class="block-title">Trivia</h3>
+  {{ content }}
+</div>
+
+<div class="grid">
+  <h3 class="block-title">Fragmenten</h3>
+  <div class="scrollable">
+    <ul class="posts-list">
+      {% for post in site.posts reversed %}
+        {% for anker in post.ankers %}
+          {% if anker == page.title %}
+          <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
+            {% assign youtube = post.media[0] %}
+            {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title set=post.decor %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="rect-pagination">
+    <div class="rect-pagination-item prev">
+      {% if page.previous.url %}
+      <a href="{{page.previous.url}} ">
+        <span class="nav-title">{{page.previous.title}}</span>
+      </a>
+      {% endif %}
+    </div>
+
+    <div class="rect-pagination-item next">
+      <a href="{{page.next.url}}">
+        <span class="nav-title">{{page.next.title}}</span>
+      </a>
+    </div>
+  </div>
+</div>

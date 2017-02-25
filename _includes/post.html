@@ -1,0 +1,7 @@
+<a class="post-link {{include.set}}" href="{{ include.url | relative_url }}">
+  <img src="http://img.youtube.com/vi/{{include.youtubeid}}/1.jpg">
+  <span class="post-meta">
+    {{ include.date | date: "%Y-%m-%d" }}<br/>
+    <strong>{{ include.title }}</strong>
+  </span>
+</a>

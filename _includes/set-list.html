@@ -1,0 +1,15 @@
+<dl class="set-list">
+  <dt class="set-term">Set</dt>
+  {% for set in site.sets %}
+  {% if set.title == page.decor %}
+  <dd class="set-description">
+    <a href="{{set.url}}">
+      <span class="set-title">{{set.title}}</span>
+    </a>
+    {% for kleur in set.kleuren %}
+      <span class="pallet" style="background-color: {{kleur}}"></span>
+    {% endfor %}
+  </dd>
+  {% endif %}
+  {% endfor %}
+</dl>

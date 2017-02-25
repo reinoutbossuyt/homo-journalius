@@ -1,0 +1,81 @@
+---
+layout: page
+---
+
+<dl>
+  <dt>Uitzenddatum</dt>
+  <dd>
+    {{page.used}}
+  </dd>
+</dl>
+<dl>
+  <dt>Kleuren</dt>
+  <dd>
+    <ul class="set-colors">
+      {% for kleur in page.kleuren %}
+        <li class="color">
+          <span style="background-color: {{kleur}}"</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </dd>
+</dl>
+<dl>
+  <dt>Logo</dt>
+  <dd>
+    <img src="{{page.icon}}" style="width: 140px;">
+  </dd>
+</dl>
+<dl>
+  <dt>Generiek</dt>
+  <dd>
+    {{page.generiek}}
+  </dd>
+</dl>
+<dl>
+  <dt>Decor</dt>
+  <dd>
+    {{page.decor}}
+  </dd>
+</dl>
+<dl>
+  <dt>Memo</dt>
+  <dd>
+    {{page.memo}}
+  </dd>
+</dl>
+
+<p class="block-title">Trivia</p>
+
+{{content}}
+
+<p class="block-title">Fragmenten</p>
+
+<div class="scrollable">
+  <ul class="posts-list">
+    {% for post in site.posts reversed %}
+      {%if post.decor == page.title %}
+      <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
+        {% assign youtube = post.media[0] %}
+        {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="rect-pagination">
+  <div class="rect-pagination-item prev">
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}} ">
+      <span class="nav-title">{{page.previous.title}}</span>
+    </a>
+    {% endif %}
+  </div>
+
+  <div class="rect-pagination-item next">
+    <a href="{{page.next.url}}">
+      <span class="nav-title">{{page.next.title}}</span>
+    </a>
+  </div>
+</div>
