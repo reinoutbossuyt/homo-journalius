@@ -5,8 +5,10 @@
   {% if anker.title == current_anker %}
   <dd class="anchor-description">
     <a href="{{anker.url}}">
-      {{anker.title}}
-      <img src="{{anker.icon}}" class="anchor-image">
+      <figure class="anchor-image">
+        {% include {{ anker.icon }} %}
+      </figure>
+      <span class="anchor-name">{{anker.title}}</span>
     </a>
   </dd>
   {% endif %}

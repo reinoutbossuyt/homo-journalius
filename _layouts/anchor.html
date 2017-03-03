@@ -1,44 +1,53 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="grid">
-  <div class="col-3-12">
-    <img src="{{ page.icon }}">
-  </div>
-  <div class="col-9-12">
-    <h1 class="anchor-title">{{page.title}}</h1>
-    {% if page.birth != nil %}
-    <dl>
-      <dt>Geboren op</dt>
-      <dd>
-        {{page.birth}}
-      </dd>
-    </dl>
-    {% endif %}
-    {% if page.bio != nil %}
-    <dl>
-      <dt>Bio</dt>
-      <dd>
-        {{page.bio}}
-      </dd>
-    </dl>
-    {% endif %}
-    {% if page.quotes != nil %}
-    <dl>
-      <dt>Quotes</dt>
-      <dd>
-        {% for quote in page.quotes %}
-          <blockquote>
-          {{ quote.quote }}
-          </blockquote>
-          <p>{{ quote.source }}</p>
-        {% endfor %}
-      </dd>
-    </dl>
-    {% endif %}
-  </div>
+<article class="set set-{{page.title}}">
+
+<h1 class="pagetitle">{{ page.title }}</h1>
+
+{% if page.icon != nil %}
+<div class="col-1-2">
+<div class="module">
+<figure class="anchor-image">
+  {% include {{page.icon}} %}
+</figure>
 </div>
+</div>
+{% endif %}
+
+{% if page.birth != nil %}
+<div class="col-1-4">
+<div class="module">
+<p class="module-title">Geboren op</p>
+{{page.birth}}
+</div>
+</div>
+{% endif %}
+
+{% if page.bio != nil %}
+<div class="col-1-4">
+<div class="module">
+<p class="module-title">Bio</p>
+{{page.bio}}
+</div>
+</div>
+{% endif %}
+
+
+{% if page.quotes.size > 0 %}
+<div class="col-1-2">
+<div class="module">
+<p class="module-title">Quote</p>
+{% for quote in page.quotes %}
+  <blockquote>
+  {{ quote.quote }}
+  </blockquote>
+  <p>{{ quote.source }}</p>
+{% endfor %}
+</div>
+</div>
+{% endif %}
 
 <div class="grid">
   <h3 class="block-title">Trivia</h3>

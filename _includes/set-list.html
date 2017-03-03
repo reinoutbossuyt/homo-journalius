@@ -4,11 +4,12 @@
   {% if set.title == page.decor %}
   <dd class="set-description">
     <a href="{{set.url}}">
+    <figure class="set-image">
+      {% include {{ set.icon }} %}
+    </figure>
       <span class="set-title">{{set.title}}</span>
     </a>
-    {% for kleur in set.kleuren %}
-      <span class="pallet" style="background-color: {{kleur}}"></span>
-    {% endfor %}
+
   </dd>
   {% endif %}
   {% endfor %}

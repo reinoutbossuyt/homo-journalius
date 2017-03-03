@@ -1,6 +1,6 @@
 ---
 title: Siel Van der Donckt
-icon: "/img/ankers/siel.svg"
+icon: "svg/ankers/siel.svg"
 layout: anchor
 birth: 1953
 bio: In 1981 slaagde Siel voor het befaamde journalistenexamen van de BRT.

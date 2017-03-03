@@ -13,7 +13,9 @@ title: Decors
     <li class="timeline-item">
        <a href="{{set.url}}">
         <h2>{{set.title}}</h2>
-        <img src="{{set.icon}}">
+          <figure class="timeline-image">
+            {% include {{set.icon}} %}
+          </figure>
         </a>
     </li>
     {% endfor %}

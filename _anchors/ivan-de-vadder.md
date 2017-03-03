@@ -1,6 +1,6 @@
 ---
 title:  Ivan De Vadder
-icon: "/img/ankers/ivan.svg"
+icon: "svg/ankers/ivan.svg"
 layout: anchor
 birth: Ukkel, 9 augustus 1964
 bio: Ivan ging in 1987 aan de slag op de verkeersredactie bij de toenmalige BRT. Hij kwam 1991 in dienst bij de nieuwsdienst van de televisie, eerst als algemeen verslaggever, vanaf 1994 als journalist in de Wetstraat.

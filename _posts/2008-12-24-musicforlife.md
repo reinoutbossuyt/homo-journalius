@@ -7,7 +7,7 @@ media:
     endtime: 0
 ankers:
   - Wim De Vilder
-set: 2008-2013
+decor: 2008-2013
 ---
 
 Met een reclamespot, gemaakt door Flexus,

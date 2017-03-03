@@ -1,6 +1,6 @@
 ---
 title: Paul D'Hoore
-icon: "/img/ankers/paul.svg"
+icon: "svg/ankers/paul.svg"
 layout: anchor
 birth: Wingene, 25 mei 1959
 bio: Paul werkte sinds 1983 voor de toenmalige BRT. In 1987 kreeg hij een vaste stek bij Het Journaal. Hij was van 1991 tot 2001 was hij nieuwslezer bij de BRT(N).Paul nam eind 2007 nam hij ontslag bij de VRT om als zelfstandige zijn wekelijkse economische nieuwsbriefte gaan uitgeven. In die functie blijft hij echter ook de beursspecialist van de VRT en ging hij ook op zelfstandige basis werken voor bedrijven. Sinds 2011 is hij financieel expert voor Het Nieuws (VTM).

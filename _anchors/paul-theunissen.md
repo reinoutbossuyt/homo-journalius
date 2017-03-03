@@ -1,6 +1,6 @@
 ---
 title: Paul Theunissen
-icon: "/img/ankers/pault.svg"
+icon: "svg/ankers/pault.svg"
 
 ---
 

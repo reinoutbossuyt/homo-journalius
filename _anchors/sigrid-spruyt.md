@@ -1,6 +1,6 @@
 ---
 title: Sigrid Spruyt
-icon: "/img/ankers/sigrid.svg"
+icon: "svg/ankers/sigrid.svg"
 layout: anchor
 birth: Deurne, 24 maart 1964
 quotes:

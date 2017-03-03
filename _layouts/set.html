@@ -2,66 +2,98 @@
 layout: page
 ---
 
-<dl>
-  <dt>Uitzenddatum</dt>
-  <dd>
-    {{page.used}}
-  </dd>
-</dl>
-<dl>
-  <dt>Kleuren</dt>
-  <dd>
-    <ul class="set-colors">
-      {% for kleur in page.kleuren %}
-        <li class="color">
-          <span style="background-color: {{kleur}}"</span>
+<article class="set set-{{page.title}}">
+
+<h1 class="pagetitle">{{ page.title }}</h1>
+
+<div class="grid">
+
+{% if page.used != page.title %}
+  <div class="col-1-3">
+  <div class="module">
+  <p class="module-title">Uitzenddatum</p>
+  <p>{{page.used}}</p>
+  </div>
+  </div>
+{% endif %}
+
+{% if page.kleuren %}
+  <div class="col-1-3">
+  <div class="module">
+  <p class="module-title">Kleurenpalet</p>
+  {% for kleur in page.kleuren %}
+  <span style="background-color: {{kleur}}" class="colour"></span>
+  {% endfor %}
+  </div>
+  </div>
+{% endif %}
+
+{% if page.icon %}
+  <div class="col-1-3">
+  <div class="module">
+  <p class="module-title">Logo</p>
+  <figure class="set-icon">
+    {% include {{page.icon}} %}
+  </figure>
+  </div>
+  </div>
+{% endif %}
+
+{% if page.generiek %}
+  <div class="col-1-2">
+  <div class="module">
+  <p class="module-title">Generiek</p>
+  {{page.generiek}}
+  </div>
+  </div>
+{% endif %}
+
+{% if page.decor %}
+  <div class="col-1-2">
+  <div class="module">
+  <p class="module-title">Decor</p>
+  {{page.decor}}
+  </div>
+  </div>
+{% endif %}
+
+</div>
+
+<div class="grid">
+
+  <div cass="col-1-8">
+  <div class="module">
+  <p class="module-title">Trivia</p>
+  {{content}}
+  </div>
+  </div>
+
+  {% if page.memo %}
+    <div class="col-1-4">
+    <div class="module">
+    <p class="module-title">Historische uitzendingen</p>
+    {{page.memo}}
+    </div>
+    </div>
+  {% endif %}
+
+</div>
+
+<div class="module">
+  <p class="module-title">Fragmenten</p>
+
+  <div class="scrollable">
+    <ul class="posts-list">
+      {% for post in site.posts reversed %}
+        {%if post.decor == page.title %}
+        <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
+          {% assign youtube = post.media[0] %}
+          {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
         </li>
+        {% endif %}
       {% endfor %}
     </ul>
-  </dd>
-</dl>
-<dl>
-  <dt>Logo</dt>
-  <dd>
-    <img src="{{page.icon}}" style="width: 140px;">
-  </dd>
-</dl>
-<dl>
-  <dt>Generiek</dt>
-  <dd>
-    {{page.generiek}}
-  </dd>
-</dl>
-<dl>
-  <dt>Decor</dt>
-  <dd>
-    {{page.decor}}
-  </dd>
-</dl>
-<dl>
-  <dt>Memo</dt>
-  <dd>
-    {{page.memo}}
-  </dd>
-</dl>
-
-<p class="block-title">Trivia</p>
-
-{{content}}
-
-<p class="block-title">Fragmenten</p>
-
-<div class="scrollable">
-  <ul class="posts-list">
-    {% for post in site.posts reversed %}
-      {%if post.decor == page.title %}
-      <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
-        {% assign youtube = post.media[0] %}
-        {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  </div>
 </div>
 
 <div class="rect-pagination">

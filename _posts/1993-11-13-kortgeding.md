@@ -2,9 +2,9 @@
 title:  "Kortgeding"
 media:
   - type: youtube
-    id: 3QZ6l8coPAg
-    starttime: 0
-    endtime: 0
+    id: Z_xoWBvO0nk
+    starttime: 5
+    endtime: 1776
 ankers:
   - Jan Becaus
 decor: 1989-1994

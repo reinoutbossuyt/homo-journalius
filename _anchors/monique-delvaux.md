@@ -1,6 +1,6 @@
 ---
 title: Monique Delvaux
-icon: "/img/ankers/monique.svg"
+icon: "svg/ankers/monique.svg"
 layout: anchor
 
 ---

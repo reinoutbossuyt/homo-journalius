@@ -8,7 +8,7 @@ layout: home
     <div class="hero-image">
       {% include_relative img/logo-hero.svg %}
     </div>
-    <h1 class="hero-title"><strong>Homo Journalius</strong><br/>kijkt met grote ogen naar Het Journaal</h1>
+    <h1 class="hero-title"><strong>Homo Journalius</strong><br/>kijkt met grote ogen naar Het&nbsp;Journaal</h1>
   </div>
 </div>
 

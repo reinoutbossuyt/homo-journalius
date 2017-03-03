@@ -1,19 +1,27 @@
 ---
 layout: default
 ---
-
-<div class="grid">
-<article class="post">
-
+<article class="post set-{{page.decor}}">
   <div class="video">
+    <div class="grid">
+    <div class="col-1-1">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </div>
     <div class="col-8-12">
-      {% if page.media[0].type == "youtube" %}
-        {% assign youtube = page.media[0] %}
-        {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime %}
-      {% endif %}
+    {% capture posttime %}{{page.date | date: '%s'}}{% endcapture %}
+    {% assign posttime = posttime | plus: 0 %}
+    {% if posttime > 807235200 %}
+      {% assign ratio = "16_9" %}
+      {% else %}
+      {% assign ratio = "4_3" %}
+    {% endif %}
+    {% if page.media[0].type == "youtube" %}
+      {% assign youtube = page.media[0] %}
+      {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime ratio=ratio%}
+    {% endif %}
     </div>
     <div class="col-4-12">
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+      <div class="post-aside">
         <dl>
           <dt>Uitzenddatum</dt>
           <dd>
@@ -63,7 +71,7 @@ layout: default
           <div class="col-1-2">
           <div class="moment">
             <a onclick="player.seekTo({{moment.timestamp}})" class="moment-stamp">
-            {{ moment.timestamp | divided_by: 60 | plus: 100 | slice: 1, 2 }}'{{ moment.timestamp | modulo: 60 | plus: 100 | slice: 1, 2 }}"
+            {{ moment.timestamp | divided_by: 60 | plus: 100 | slice: 1, 2 }}:{{ moment.timestamp | modulo: 60 | plus: 100 | slice: 1, 2 }}
             </a>
             <span class="moment-description">{{moment.description}}</span>
           </div>
@@ -76,14 +84,15 @@ layout: default
           {{content}}
         </div>
         {% endif %}
+      </div>
   </div>
 </div>
-
-</article>
 </div>
+</article>
 
 
-<div class="grid grid-pad">
+
+<div class="grid">
   <div class="rect-pagination">
     <div class="rect-pagination-item prev">
       {% if page.previous.url %}

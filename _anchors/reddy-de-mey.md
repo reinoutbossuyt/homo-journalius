@@ -1,6 +1,6 @@
 ---
 title:  Reddy De Mey
-icon: "/img/ankers/reddy.svg"
+icon: "svg/ankers/reddy.svg"
 layout: anchor
 birth: Oostende, 25 juni 1944
 bio: Reddy werkte tijdens de jaren 70 en 80 voor de BRT als journalist en verslaggever. In 1999 werd De Mey door de VRT ontslagen en hij ging met pensioen.
