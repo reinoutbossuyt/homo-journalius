@@ -79,18 +79,28 @@ layout: default
   <p class="module-title">Fragmenten</p>
   <div class="scrollable">
     <ul class="posts-list">
+      {% assign found = 0 %}
       {% for post in site.posts reversed %}
         {% for anker in post.ankers %}
           {% if anker == page.title %}
           <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
             {% assign youtube = post.media[0] %}
             {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title set=post.decor %}
+            {{found}}
+            {% assign found = found + 1 %}
           </li>
           {% endif %}
         {% endfor %}
       {% endfor %}
     </ul>
   </div>
+
+  {{found}}
+
+  {% if found == 0 %}
+    <p class="no-fragments">Geen fragmenten gevonden.</p>
+  {% endif %}
+
 </div>
 
 </div>

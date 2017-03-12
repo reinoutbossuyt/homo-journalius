@@ -1,6 +1,6 @@
 ---
 title: Lucien Boussé
-icon: "svg/ankers/leo.svg"
+icon: "svg/ankers/lucien.svg"
 layout: anker
 birth: 1925
 bio: Lucien presenteerde vanaf 1964 het nieuws en maakte reportages voor diverse magazines, waaronder Panorama. In 1974 werd hij hoofdredacteur van het tv-journaal.
