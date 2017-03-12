@@ -1,46 +1,57 @@
 ---
-layout: page
+layout: default
 ---
 
-<article class="set set-{{page.title}}">
+{% include subnav.html %}
 
-<h1 class="pagetitle">{{ page.title }}</h1>
+<div class="container-fluid">
 
-<div class="grid">
+<h1 class="pagetitle"><span>Het decor van Het&nbsp;Journaal</span> {{ page.title }}</h1>
 
+<div class="row">
 {% if page.used != page.title %}
-  <div class="col-1-3">
-  <div class="module">
-  <p class="module-title">Uitzenddatum</p>
-  <p>{{page.used}}</p>
-  </div>
+  <div class="col-sm-4">
+    <div class="module">
+    <p class="module-title">Uitzenddatum</p>
+    <p>{{page.used}}</p>
+    </div>
   </div>
 {% endif %}
 
 {% if page.kleuren %}
-  <div class="col-1-3">
-  <div class="module">
-  <p class="module-title">Kleurenpalet</p>
-  {% for kleur in page.kleuren %}
-  <span style="background-color: {{kleur}}" class="colour"></span>
-  {% endfor %}
-  </div>
+  <div class="col-sm-4">
+    <div class="module">
+    <p class="module-title">Kleurenpalet</p>
+    {% for kleur in page.kleuren %}
+    <span style="background-color: {{kleur}}" class="colour"></span>
+    {% endfor %}
+    </div>
   </div>
 {% endif %}
 
 {% if page.icon %}
-  <div class="col-1-3">
-  <div class="module">
-  <p class="module-title">Logo</p>
-  <figure class="set-icon">
-    {% include {{page.icon}} %}
-  </figure>
-  </div>
+  <div class="col-sm-4">
+    <div class="module">
+    <p class="module-title">Logo</p>
+    <figure class="set-icon">
+      {% include {{page.icon}} %}
+    </figure>
+    </div>
   </div>
 {% endif %}
+</div>
+
+<div class="row">
+
+<div class="col-sm-6">
+  {% if page.media[0].type == "youtube" %}
+    {% assign youtube = page.media[0] %}
+    {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime ratio="4_3"%}
+  {% endif %}
+</div>
 
 {% if page.generiek %}
-  <div class="col-1-2">
+  <div class="col-sm-3">
   <div class="module">
   <p class="module-title">Generiek</p>
   {{page.generiek}}
@@ -49,7 +60,7 @@ layout: page
 {% endif %}
 
 {% if page.decor %}
-  <div class="col-1-2">
+  <div class="col-sm-3">
   <div class="module">
   <p class="module-title">Decor</p>
   {{page.decor}}
@@ -57,57 +68,43 @@ layout: page
   </div>
 {% endif %}
 
-</div>
-
-<div class="grid">
-
-  <div cass="col-1-8">
+{% if page.memo %}
+  <div class="col-sm-6">
   <div class="module">
-  <p class="module-title">Trivia</p>
-  {{content}}
+  <p class="module-title">Historische uitzendingen</p>
+  {{page.memo}}
   </div>
   </div>
+{% endif %}
+</div>
 
-  {% if page.memo %}
-    <div class="col-1-4">
+<div class="row">
+  {% if content.size > 1 %}
+  <div class="col-sm-12">
     <div class="module">
-    <p class="module-title">Historische uitzendingen</p>
-    {{page.memo}}
+    <p class="module-title">Trivia</p>
+    {{content}}
     </div>
-    </div>
+  </div>
   {% endif %}
-
 </div>
 
-<div class="module">
-  <p class="module-title">Fragmenten</p>
-
-  <div class="scrollable">
-    <ul class="posts-list">
-      {% for post in site.posts reversed %}
-        {%if post.decor == page.title %}
-        <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
-          {% assign youtube = post.media[0] %}
-          {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<div class="rect-pagination">
-  <div class="rect-pagination-item prev">
-    {% if page.previous.url %}
-    <a href="{{page.previous.url}} ">
-      <span class="nav-title">{{page.previous.title}}</span>
-    </a>
-    {% endif %}
-  </div>
-
-  <div class="rect-pagination-item next">
-    <a href="{{page.next.url}}">
-      <span class="nav-title">{{page.next.title}}</span>
-    </a>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="module">
+      <p class="module-title">Fragmenten</p>
+      <div class="scrollable">
+        <ul class="posts-list">
+          {% for post in site.posts reversed %}
+            {%if post.decor == page.title %}
+            <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
+              {% assign youtube = post.media[0] %}
+              {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

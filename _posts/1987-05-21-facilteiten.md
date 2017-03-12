@@ -8,9 +8,10 @@ media:
 ankers:
   - Martine Tanghe
 decor: 1987-1989
+moments:
+  - timestamp: 875
+    description: Op het einde is een nog onbekende Koen Geens van de KU Leuven te zien. Geens wordt later minister van Justitie voor CD&V.
 hour: "19:45"
 ---
 
-* Dit is een opname van het "tweede net": BRT2.
-
-* Op het einde is een nog onbekende Koen Geens van de KU Leuven te zien. Geens wordt later minister van Justitie voor CD&V.
+* Dit is een opname van het "tweede net" zoals BRT2 - nu Canvas - werd genoemd.

@@ -13,5 +13,3 @@ moments:
   - timestamp: 300
     description: In de studio geeft wetenschapsjournalist Stefan Mores meer uitleg. De svo is te vroeg in beeld. De uitleg duurt een dikke drie minuten, zonder variatie in camerastandpunt en niet onderbroken door beelden.
 ---
-
-* Het verslag over het sociaal overleg werd gemaakt door Guy Polspoel. Met titels wordt de boodschap samengevat.

@@ -1,7 +1,11 @@
-<a class="post-link {{include.set}}" href="{{ include.url | relative_url }}">
-  <img src="http://img.youtube.com/vi/{{include.youtubeid}}/1.jpg">
-  <span class="post-meta">
-    {{ include.date | date: "%Y-%m-%d" }}<br/>
-    <strong>{{ include.title }}</strong>
-  </span>
-</a>
+<div class="post-teaser">
+  <a class="post-link {{include.set}}" href="{{ include.url | relative_url }}">
+    <figure class="post-thumb" style="background-image: url('http://img.youtube.com/vi/{{include.youtubeid}}/hqdefault.jpg')">
+    </figure>
+  </a>
+  <div class="module">
+    <p class="module-title"><a href="{{ include.url | relative_url }}">
+    <span class="post-meta">{{ include.date | date: "%Y-%m-%d" }}<br/>
+    <strong>{{ include.title }}</strong></span></a></p>
+  </div>
+</div>

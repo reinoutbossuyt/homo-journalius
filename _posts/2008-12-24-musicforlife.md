@@ -1,5 +1,5 @@
 ---
-title:  "Uit goede bron"
+title:  "Music for life 2008"
 media:
   - type: youtube
     id: eYs1M2TCGB0
@@ -10,6 +10,4 @@ ankers:
 decor: 2008-2013
 ---
 
-Met een reclamespot, gemaakt door Flexus,
-
-ogCvwSK0RkE
+Er wordt live overgeschakeld naar Stef Meerbergen, die later presentator van Ter Zake wordt.

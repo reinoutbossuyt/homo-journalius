@@ -10,8 +10,8 @@ ankers:
   - Martine Tanghe
 hour: "Laat"
 moments:
-  - timestamp: 100
+  - timestamp: 274
     description: Interview door Paul Jambers
   - timestamp: 584
-    description: Eindredactie door Jan Ceuleers. Ceuleers wordt later directeur-generaal van de BRT, van 1989 tot 1996.
+    description: Eindredactie door Jan Ceuleers. Jan is later van 1989 tot 1996 directeur-generaal van de BRT.
 ---

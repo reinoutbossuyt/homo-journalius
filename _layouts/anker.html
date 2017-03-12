@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+{% include subnav.html %}
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="pagetitle">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+
+    {% if page.icon != nil %}
+    <div class="col-sm-4">
+    <figure class="anker-image">
+      {% include {{page.icon}} %}
+    </figure>
+    </div>
+    {% endif %}
+
+    <div class="col-sm-8">
+
+      <div class="row">
+
+      {% if page.birth != nil %}
+      <div class="col-sm-3">
+      <div class="module">
+      <p class="module-title">Geboren op</p>
+      {{page.birth}}
+      </div>
+      </div>
+      {% endif %}
+
+      {% if page.bio != nil %}
+      <div class="col-sm-9">
+      <div class="module">
+      <p class="module-title">Bio</p>
+      {{page.bio}}
+      </div>
+      </div>
+      {% endif %}
+
+      </div>
+
+    </div>
+
+    {% if page.quotes.size > 0 %}
+    <div class="col-sm-8">
+    <div class="module">
+    <p class="module-title">Quote</p>
+    {% for quote in page.quotes %}
+      <blockquote>
+      {{ quote.quote }}
+      </blockquote>
+      <p class="source">{{ quote.source }}</p>
+    {% endfor %}
+    </div>
+    </div>
+    {% endif %}
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-8">
+      {% if content.size > 1 %}
+      <div class="module">
+        <p class="module-title">Trivia</h3>
+        {{ content }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+<div class="module">
+  <p class="module-title">Fragmenten</p>
+  <div class="scrollable">
+    <ul class="posts-list">
+      {% for post in site.posts reversed %}
+        {% for anker in post.ankers %}
+          {% if anker == page.title %}
+          <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
+            {% assign youtube = post.media[0] %}
+            {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title set=post.decor %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+</div>

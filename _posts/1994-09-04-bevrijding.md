@@ -11,4 +11,4 @@ ankers:
 hour: "17:55"
 ---
 
-https://www.youtube.com/watch?v=xIxXJ3KRvCc
+* Op <span class="moment-inline" data-sec="36">00:36</span> zie je in een ruimere blik op de studio hoe de ankers niet in hun vertrouwde omgeving uit de voorbije jaar zitten. De dag erna wordt immers een nieuwe decor in gebruik genomen.

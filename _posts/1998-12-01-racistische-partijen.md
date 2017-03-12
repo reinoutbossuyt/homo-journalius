@@ -9,4 +9,7 @@ ankers:
   - Ivo Belet
 decor: 1997-2002
 hour: "Laat"
+moments:
+  - timestamp: 1613
+    description: Tot slot van het journaal wordt beursnieuws gebracht.
 ---

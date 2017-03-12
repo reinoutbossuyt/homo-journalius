@@ -1,0 +1,19 @@
+<div class="module">
+  <p class="module-title">Ankers</dt>
+  <div class="ankers size-{{page.ankers.size}}">
+  {% for current_anker in page.ankers %}
+    {% for anker in site.anker %}
+      {% unless anker.title != current_anker %}
+        <div class="anker">
+        <a href="{{anker.url}}">
+          <figure class="anker-image">
+            {% include {{ anker.icon }} %}
+          </figure>
+          <p class="anker-name"><span class="text-link">{{anker.title}}</span></p>
+        </a>
+        </div>
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+  </div>
+</div>

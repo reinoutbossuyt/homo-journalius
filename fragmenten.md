@@ -1,13 +1,22 @@
 ---
-layout: page
-title: Fragmenten
+layout: default
+title: Fragmenten uit Het Journaal
+menu: fragmenten
 ---
-# Fragmenten
+
+<div class="container-fluid">
+
+<h1 class="pagetitle">Fragmenten</h1>
 
 <p class="lead">Beleef een nostalgische trip door het verleden met oude Journaal-fragmenten.</p>
 
-{% for post in site.posts reversed %}
-<div class="col-4-12">
-  {% include post.html url=post.url youtubeid=post.youtubeid date=post.date title=post.title set=post.decor %}
+<div class="row">
+  {% for post in site.posts reversed %}
+    {% assign youtube = post.media[0] %}
+    <div class="col-sm-4 col-lg-3">
+      {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title set=post.decor %}
+    </div>
+  {% endfor %}
 </div>
-{% endfor %}
+
+</div>

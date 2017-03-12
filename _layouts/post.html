@@ -1,113 +1,109 @@
 ---
 layout: default
 ---
-<article class="post set-{{page.decor}}">
-  <div class="video">
-    <div class="grid">
-    <div class="col-1-1">
-      <h1 class="post-title">{{ page.title | escape }}</h1>
-    </div>
-    <div class="col-8-12">
-    {% capture posttime %}{{page.date | date: '%s'}}{% endcapture %}
-    {% assign posttime = posttime | plus: 0 %}
-    {% if posttime > 807235200 %}
-      {% assign ratio = "16_9" %}
-      {% else %}
-      {% assign ratio = "4_3" %}
-    {% endif %}
-    {% if page.media[0].type == "youtube" %}
-      {% assign youtube = page.media[0] %}
-      {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime ratio=ratio%}
-    {% endif %}
-    </div>
-    <div class="col-4-12">
-      <div class="post-aside">
-        <dl>
-          <dt>Uitzenddatum</dt>
-          <dd>
-            <span class="post-date">
-              <span class="day">{{ page.date | date: "%d" }}</span>
-              <span class="aside">
-                <span class="month-year">
-                  <!-- Whitespace added for readability -->
-                  {% assign m = page.date | date: "%-m" %}
-                  {% case m %}
-                    {% when '1' %}januari
-                    {% when '2' %}februari
-                    {% when '3' %}maart
-                    {% when '4' %}april
-                    {% when '5' %}mei
-                    {% when '6' %}juni
-                    {% when '7' %}juli
-                    {% when '8' %}augustus
-                    {% when '9' %}september
-                    {% when '10' %}oktober
-                    {% when '11' %}november
-                    {% when '12' %}december
-                  {% endcase %}
-                  {{ page.date | date: "%Y" }}
-                </span>
-                <span class="time">
-                  {{ page.hour }}
-                </span
-              </span>
-            </span>
-          </dd>
-        </dl>
-        {% if page.ankers.size > 1 %}
-          {% include set-list.html %}
-          {% include anchor-list.html %}
-        {% else %}
-        <div class="col-1-2">
-         {% include set-list.html %}
-        </div>
-        <div class="col-1-2">
-         {% include anchor-list.html %}
-        </div>
+
+{% include subnav.html %}
+
+
+
+<div class="container-fluid">
+  <article class="post set-{{page.decor}}">
+    <div class="video">
+      <div class="row">
+      <div class="col-sm-12">
+        <h1 class="pagetitle">{{ page.title | escape }}</h1>
+      </div>
+      <div class="col-sm-8">
+        {% capture posttime %}{{page.date | date: '%s'}}{% endcapture %}
+        {% assign posttime = posttime | plus: 0 %}
+        {% if posttime > 1010361600 %}
+          {% assign ratio = "16_9" %}
+          {% else %}
+          {% assign ratio = "4_3" %}
         {% endif %}
-        {% if page.moments %}
-        <div class="moments">
-          {% for moment in page.moments %}
-          <div class="col-1-2">
-          <div class="moment">
-            <a onclick="player.seekTo({{moment.timestamp}})" class="moment-stamp">
-            {{ moment.timestamp | divided_by: 60 | plus: 100 | slice: 1, 2 }}:{{ moment.timestamp | modulo: 60 | plus: 100 | slice: 1, 2 }}
-            </a>
-            <span class="moment-description">{{moment.description}}</span>
-          </div>
-          </div>
-          {% endfor %}
-        </div>
+        {% if page.media[0].type == "youtube" %}
+          {% assign youtube = page.media[0] %}
+          {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime ratio=ratio%}
         {% endif %}
-        {% if content %}
-        <div class="info">
-          {{content}}
-        </div>
+        {% if page.media[0].type == "embed" %}
+          {{ page.media[0].code }}
         {% endif %}
       </div>
-  </div>
-</div>
-</div>
-</article>
-
-
-
-<div class="grid">
-  <div class="rect-pagination">
-    <div class="rect-pagination-item prev">
-      {% if page.previous.url %}
-      <a href="{{page.previous.url}}">
-        <span class="nav-date">{{page.previous.date | date: "%d/%m/%Y"}}</span>
-        <span class="nav-title">{{page.previous.title}}</span>
-      </a>
-      {% endif %}
+      <div class="col-sm-4">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="module">
+              <p class="module-title">Uitzenddatum</p>
+                <span class="post-date">
+                  <span class="day">{{ page.date | date: "%d" }}</span>
+                  <span class="aside">
+                    <span class="month-year">
+                      <!-- Whitespace added for readability -->
+                      {% assign m = page.date | date: "%-m" %}
+                      {% case m %}
+                        {% when '1' %}januari
+                        {% when '2' %}februari
+                        {% when '3' %}maart
+                        {% when '4' %}april
+                        {% when '5' %}mei
+                        {% when '6' %}juni
+                        {% when '7' %}juli
+                        {% when '8' %}augustus
+                        {% when '9' %}september
+                        {% when '10' %}oktober
+                        {% when '11' %}november
+                        {% when '12' %}december
+                      {% endcase %}
+                      {{ page.date | date: "%Y" }}
+                    </span>
+                    <span class="time">
+                      {{ page.hour }}
+                    </span
+                  </span>
+                </span>
+            </div>
+          </div>
+        </div>
+          {% if page.ankers.size > 1 %}
+            {% include set-list.html %}
+            {% include anker-list.html %}
+          {% else %}
+            <div class="row">
+            {% if page.decor %}
+              <div class="col-xs-6">
+               {% include set-list.html %}
+              </div>
+            {% endif %}
+            {% if page.ankers %}
+              <div class="col-xs-6">
+                {% include anker-list.html %}
+              </div>
+            {% endif %}
+            </div>
+          {% endif %}
+          {% if page.moments %}
+            <div class="row">
+              <div class="col-xs-12">
+                {% include moment-list.html %}
+              </div>
+            </div>
+          {% endif %}
+          {% if content.size > 1 %}
+          <div class="row">
+            <div class="col-xs-12">
+            <div class="info">
+              <div class="module">
+                <p class="module-title">Info</p>
+                  {{content}}
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
     </div>
-
-    <div class="rect-pagination-item next">
-      <a href="{{page.next.url}}">
-        <span class="nav-date">{{page.next.date | date: "%d/%m/%Y"}}</span>
-        <span class="nav-title">{{page.next.title}}</span>
-      </a>
-    </div>
   </div>
+  </article>
 </div>

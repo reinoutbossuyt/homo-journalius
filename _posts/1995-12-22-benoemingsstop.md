@@ -13,4 +13,4 @@ hour: "18:00"
 
 * Het Journaal wordt voorafgegaan door een korte klok.
 
-* Aftiteling: "Een programma van de Nieuwsdienst"
+* In de aftiteling staat "Een programma van de Nieuwsdienst".

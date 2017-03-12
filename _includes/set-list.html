@@ -1,16 +1,20 @@
-<dl class="set-list">
-  <dt class="set-term">Set</dt>
-  {% for set in site.sets %}
-  {% if set.title == page.decor %}
-  <dd class="set-description">
-    <a href="{{set.url}}">
-    <figure class="set-image">
-      {% include {{ set.icon }} %}
-    </figure>
-      <span class="set-title">{{set.title}}</span>
-    </a>
-
-  </dd>
+<div class="module">
+  <p class="module-title">Set</p>
+  {% if page.ankers.size > 1 %}
+    {% assign type = "compact" %}
+  {% else %}
+    {% assign type = "full" %}
   {% endif %}
+  {% for set in site.set %}
+  {% unless set.title != page.decor %}
+  <div class="set {{type}}">
+    <a href="{{set.url}}">
+      <figure class="set-image">
+        {% include {{ set.icon }} %}
+      </figure>
+      <p class="set-title"><span class="text-link">{{set.title}}</span></p>
+    </a>
+  </div>
+  {% endunless %}
   {% endfor %}
-</dl>
+</div>

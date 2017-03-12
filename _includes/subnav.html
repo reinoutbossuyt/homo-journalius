@@ -1,0 +1,17 @@
+<div class="rect-pagination">
+  <div class="rect-pagination-item prev">
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}} ">
+      &larr; <span class="nav-title">{{page.previous.title}}</span>
+    </a>
+    {% endif %}
+  </div>
+
+  <div class="rect-pagination-item next">
+    {% if page.next.url %}
+    <a href="{{page.next.url}}">
+      <span class="nav-title">{{page.next.title}}</span> &rarr;
+    </a>
+    {% endif %}
+  </div>
+</div>
