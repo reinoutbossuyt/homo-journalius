@@ -15,8 +15,11 @@ layout: home
 
 <div class="col-sm-4">
   <div class="highlight">
-    <a class="highlight-link" href="fragmenten.html">
-      <em class="highlight-big number">{{ site.posts | size }}</em>
+    <a class="highlight-link" href="/fragmenten">
+      <!--<span class="highlight-big number">{{ site.posts | size }}</span>-->
+
+      {% include anum.html size=site.posts.size%}
+
       <p class="highlight-selector">fragmenten</p>
     </a>
   </div>
@@ -24,8 +27,11 @@ layout: home
 
 <div class="col-sm-4">
   <div class="highlight">
-    <a class="highlight-link" href="ankers.html">
-      <em class="highlight-big">{{ site.anker | size }}</em>
+    <a class="highlight-link" href="/ankers">
+      <!--<span class="highlight-big">{{ site.anker | size }}</span>-->
+
+      {% include anum.html size=site.anker.size%}
+
       <p class="highlight-selector">ankers</p>
     </a>
   </div>
@@ -33,8 +39,10 @@ layout: home
 
 <div class="col-sm-4">
   <div class="highlight">
-    <a class="highlight-link" href="sets.html">
-      <em class="highlight-big">{{ site.set | size }}</em>
+    <a class="highlight-link" href="/sets">
+
+      {% include anum.html size=site.set.size%}
+
       <p class="highlight-selector">decors</p>
     </a>
   </div>

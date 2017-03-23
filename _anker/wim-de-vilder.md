@@ -9,4 +9,4 @@ quotes:
     source: Wim De Vilder in Humo
 ---
 
-* Wim was 10 jaar lang het gezicht van het reportageprogramma Koppen.
+* Wim was 10 jaar lang het gezicht van het reportageprogramma <cite>Koppen</cite>.

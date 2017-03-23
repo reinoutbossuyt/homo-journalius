@@ -10,7 +10,7 @@ layout: default
 
 <div class="row">
 {% if page.used != page.title %}
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <div class="module">
     <p class="module-title">Uitzenddatum</p>
     <p>{{page.used}}</p>
@@ -19,7 +19,7 @@ layout: default
 {% endif %}
 
 {% if page.kleuren %}
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <div class="module">
     <p class="module-title">Kleurenpalet</p>
     {% for kleur in page.kleuren %}
@@ -29,82 +29,89 @@ layout: default
   </div>
 {% endif %}
 
-{% if page.icon %}
-  <div class="col-sm-4">
-    <div class="module">
-    <p class="module-title">Logo</p>
-    <figure class="set-icon">
-      {% include {{page.icon}} %}
-    </figure>
-    </div>
-  </div>
-{% endif %}
-</div>
-
-<div class="row">
-
-<div class="col-sm-6">
-  {% if page.media[0].type == "youtube" %}
-    {% assign youtube = page.media[0] %}
-    {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime ratio="4_3"%}
-  {% endif %}
-</div>
-
 {% if page.generiek %}
-  <div class="col-sm-3">
+  <div class="col-sm-6">
   <div class="module">
   <p class="module-title">Generiek</p>
-  {{page.generiek}}
+  <p>{{page.generiek}}</p>
+  {% if page.media[0].type == "youtube" %}
+    {% assign youtube = page.media[0] %}
+    {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime ratio=youtube.ratio %}
+  {% endif %}
   </div>
   </div>
 {% endif %}
 
-{% if page.decor %}
-  <div class="col-sm-3">
-  <div class="module">
-  <p class="module-title">Decor</p>
-  {{page.decor}}
-  </div>
-  </div>
-{% endif %}
+<div class="col-sm-6">
 
-{% if page.memo %}
-  <div class="col-sm-6">
+<div class="row">
+  {% if page.decor %}
+    <div class="col-sm-6">
+    <div class="module">
+    <p class="module-title">Decor</p>
+    {{page.decor}}
+    </div>
+    </div>
+  {% endif %}
+
+  {% if page.icon %}
+    <div class="col-sm-6">
+      <div class="module">
+      <p class="module-title">Logo</p>
+      <figure class="set-icon">
+        {% include {{page.icon}} %}
+      </figure>
+      </div>
+    </div>
+  {% endif %}
+
+  {% if page.memo %}
+  <div class="col-sm-12">
   <div class="module">
   <p class="module-title">Historische uitzendingen</p>
   {{page.memo}}
   </div>
   </div>
-{% endif %}
+  {% endif %}
+
+
+</div>
+</div>
 </div>
 
 <div class="row">
   {% if content.size > 1 %}
-  <div class="col-sm-12">
+  <div class="col-sm-9">
     <div class="module">
     <p class="module-title">Trivia</p>
-    {{content}}
+    <div class="row">
+      <div class="col-sm-10">
+        {{content}}
+      </div>
+    </div>
     </div>
   </div>
   {% endif %}
-</div>
 
-<div class="row">
-  <div class="col-sm-12">
+  <div class="col-sm-3">
     <div class="module">
-      <p class="module-title">Fragmenten</p>
-      <div class="scrollable">
-        <ul class="posts-list">
-          {% for post in site.posts reversed %}
-            {%if post.decor == page.title %}
-            <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
-              {% assign youtube = post.media[0] %}
-              {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
+      <p class="module-title">Bekijk</p>
+
+      {% assign posts = (site.posts | where: "decor" , {{page.title}}) %}
+
+      {% if posts.size > 7 %}
+        {% assign class = "many" %}
+      {% endif %}
+
+      <ul class="posts-list {{class}}">
+        {% for post in posts %}
+          <li class="posts-listitem">
+            {% assign youtube = post.media[0] %}
+            {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
+          </li>
+        {% endfor %}
+      </ul>
+
     </div>
   </div>
 </div>

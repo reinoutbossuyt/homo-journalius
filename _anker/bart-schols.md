@@ -8,4 +8,4 @@ bio: Van 2013 tot 2015 presenteerde Bart het Journaal, ter vervanging van Jan Be
 
 * Bart studeerde aanvankelijk psychologie in Leuven en combineerde zijn studies met basketbal in tweede klasse.
 
-* Sinds augustus 2015 is Bart de presentator van het actualiteitsprogramma De Afspraak op Canvas.
+* Sinds augustus 2015 presenteert Bart het actualiteitsprogramma 'De Afspraak' op Canvas.

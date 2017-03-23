@@ -7,3 +7,11 @@ bio: Dirk begon zijn carrière als journalist bij de toenmalige BRT-televisie in
 ---
 
 * Dirk Sterckx werd opgevolgd door Stef Wauters.
+
+* Dirk Sterckx vormde met Alain Coninx en Dirk Tieleman één van de pioniers van Ter Zake.
+
+<div class="alt">
+  <h2>Alles komt terug met Dirk Sterckx</h2>
+  {% include youtube.html youtubeid="cXMua4LBLbc" ratio="16_9" %}
+  <p class="muted"><small>Alles komt terug werd gepresenteerd door Mark Uytterhoeven en Rob Vanoudenhoven. In tweede aflevering zijn Dirk Sterckx, Martine Tanghe en Karel De Gucht te gast.</small></p>
+</div>

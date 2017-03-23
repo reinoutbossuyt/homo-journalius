@@ -2,6 +2,7 @@
 layout: default
 title: Ankers
 menu: ankers
+permalink: ankers/
 ---
 
 <div class="container-fluid">
@@ -10,7 +11,7 @@ menu: ankers
   <p class="lead">Lezen elke dag het journaal voor.</p>
 
 
-  <p>De Vlaamse omroep was één van de eerste in West-Europa om het nieuws te zenden waarbij een journalist op het scherm verscheen. Ondertussen - meer 60 jaar na de start van de start van televisie en Het Journaal in 1953 – passeerden heel wat ankers de revue. Ontdek ze hier één voor één.</p>
+  <p>De Vlaamse omroep was één van de eerste in West-Europa om het nieuws te zenden waarbij een journalist op het scherm verscheen. Ondertussen - meer 60 jaar na de start van de start van televisie en Het Journaal – passeerden heel wat ankers de revue. Ontdek ze hier allemaal.</p>
 
 
   <div class="row">

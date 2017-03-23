@@ -65,7 +65,7 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-9">
       {% if content.size > 1 %}
       <div class="module">
         <p class="module-title">Trivia</h3>
@@ -86,16 +86,13 @@ layout: default
           <li class="posts-listitem {% if page.url == post.url %}post-listitem--active{% endif %}">
             {% assign youtube = post.media[0] %}
             {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title set=post.decor %}
-            {{found}}
-            {% assign found = found + 1 %}
+            {% assign found = {{ found }} + 1 %}
           </li>
           {% endif %}
         {% endfor %}
       {% endfor %}
     </ul>
   </div>
-
-  {{found}}
 
   {% if found == 0 %}
     <p class="no-fragments">Geen fragmenten gevonden.</p>

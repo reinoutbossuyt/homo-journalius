@@ -5,12 +5,12 @@ layout: anker
 quotes:
   - quote: "Presenteren, dat deed ik eigenlijk niet graag. Ik hield meer van het veldwerk."
     source:
-bio: Jacques ging in 1962 aan de slag bij de tv-nieuwsdienst. Hij specialiseerde zich in buitenlands nieuws, onder andere in Noord-Ierland en de Verenigde Staten. Vandersichel is ook jarenlang eindredacteur van het tv-journaal geweest.
-birth: 7 april 1932, Gent
+bio: Jacques ging in 1962 aan de slag bij de tv-nieuwsdienst. Hij specialiseerde zich in buitenlands nieuws. Jacques was ook jarenlang eindredacteur.
+birth: 7 april 1932, Gent - 29 december 2012, Gent
 ---
 
-* Vandersichel heeft ook de dagelijkse nieuwsuitwisseling via het Eurovisienet mee uitgebouwd. Van 1989 tot aan zijn pensioen was Jacques Vandersichel directeur van de Wereldomroep op de VRT, later ook bekend als Radio Vlaanderen Internationaal.
+* Jacques bouwde de dagelijkse nieuwsuitwisseling tussen verschillende omroepen uit, eerst tussen de Eurovisielanden, later wereldwijd.
 
-* Hij was ook actief als culinair journalist, en in het Gentse verenigingsleven.
+* Van 1989 tot aan zijn pensioen was Jacques directeur van de Wereldomroep, later ook bekend als Radio Vlaanderen Internationaal.
 
-* Tegelijk werkte hij mee aan de opbouw van het Eurovisienet voor dagelijkse nieuwsuitwisseling, eerst tussen de Eurovisielanden, later wereldwijd. Tussen 1986 en 1993 was hij voorzitter van de Europese vergadering van TV-hoofdredacteurs. Van 1989 tot zijn pensionering was Jacques Vandersichel directeur van de Wereldomroep, later beter bekend als Radio Vlaanderen Internationaal.
+* Jacques was ook actief als culinair journalist en in het Gentse verenigingsleven.

@@ -46,5 +46,6 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - artwork
 sass:
     sass_dir: _sass

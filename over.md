@@ -2,6 +2,7 @@
 layout: default
 title: Over
 menu: over
+permalink: over/
 ---
 
 <div class="container-fluid">
@@ -16,7 +17,7 @@ menu: over
 
 <p>Een goede nieuwsuitzending is neutraal en objectief. Ja, zelfs geur- en smaakloos zoals een aardappel, aldus een <a href="/ankers/jan-becaus"><span class="text-link">oud-nieuwsanker</span></a>.</p>
 
-<p><strong>Deze site doet het omgekeerde en maakt van Het Journaal nieuws.</strong> Zo brengt hulde aan een dagelijkse live-uitzending waarin <a href="/1988/08/29/studio.html"><span class="text-link">al&nbsp;eens</span></a> <a href="1997/09/01/bommelding.html"><span class="text-link">wat&nbsp;durft</span></a> <a href="2012/07/18/honderd.html"><span class="text-link">foutlopen</span></a>. Het focust op de triviale weetjes achter de schermen en staat stil bij de bijzonderheden die anders snel voorbijgaan.</p>
+<p><strong>Deze site doet het omgekeerde en maakt van Het Journaal nieuws.</strong> Zo brengt hulde aan een dagelijkse live-uitzending waarin <a href="/1988/08/29/studio.html"><span class="text-link">al&nbsp;eens</span></a> <a href="/1997/09/01/bommelding.html"><span class="text-link">wat&nbsp;durft</span></a> <a href="/2012/07/18/honderd.html"><span class="text-link">foutlopen</span></a>. Het focust op de triviale weetjes achter de schermen en staat stil bij de bijzonderheden die anders snel voorbijgaan.</p>
 
 </div>
 

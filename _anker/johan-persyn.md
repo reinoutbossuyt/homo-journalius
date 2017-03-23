@@ -13,4 +13,4 @@ bio: "Johan Persyn was van 1989 tot 1993 nieuwslezer, vooral van het laatavondni
 
 * In 1993 werd Johan hoofdredacteur van de West-Vlaamse regionale zender WTV. Hij presenteerde met Jessie De Caluwé er het eerste Journaal.
 
-* In 2000 was Johan één van de eerste presentators van het nieuwe TV1-programma 'De Rode Loper', een magazine over de wereld van (inter)nationale celebrity's.
+* In 2000 was Johan één van de eerste presentators van het TV1-programma 'De Rode Loper', een magazine over de wereld van (inter)nationale celebrity's.

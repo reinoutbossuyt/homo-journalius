@@ -2,6 +2,7 @@
 layout: default
 title: Decors
 menu: sets
+permalink: sets/
 ---
 
 <div class="container-fluid">
