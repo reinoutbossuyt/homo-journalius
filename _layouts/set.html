@@ -2,116 +2,106 @@
 layout: default
 ---
 
-{% include subnav.html %}
-
 <div class="container-fluid">
 
-<h1 class="pagetitle"><span>Het decor van Het&nbsp;Journaal</span> {{ page.title }}</h1>
-
-<div class="row">
-{% if page.used != page.title %}
-  <div class="col-sm-6">
-    <div class="module">
-    <p class="module-title">Uitzenddatum</p>
-    <p>{{page.used}}</p>
+  <div class="row inverted">
+    <div class="col-sm-4">
+      <h1 class="pagetitle"><span>Het decor van Het&nbsp;Journaal</span> {{ page.title }}</h1>
+      {% if page.used != page.title %}
+        <div class="module">
+        <p class="module-title">Uitzenddatum</p>
+        <p>{{page.used}}</p>
+        </div>
+      {% endif %}
+    </div>
+    <div class="col-sm-8">
+        <figure class="set-image">
+          {% if page.image %}
+          {% include {{page.image}} %}
+          {% endif %}
+        </figure>
     </div>
   </div>
-{% endif %}
 
-{% if page.kleuren %}
-  <div class="col-sm-6">
-    <div class="module">
-    <p class="module-title">Kleurenpalet</p>
-    {% for kleur in page.kleuren %}
-    <span style="background-color: {{kleur}}" class="colour"></span>
-    {% endfor %}
-    </div>
-  </div>
-{% endif %}
+  <div class="set-fragments">
+  <div class="row">
+    <div class="col-sm-12">
 
-{% if page.generiek %}
-  <div class="col-sm-6">
-  <div class="module">
-  <p class="module-title">Generiek</p>
-  <p>{{page.generiek}}</p>
-  {% if page.media[0].type == "youtube" %}
-    {% assign youtube = page.media[0] %}
-    {% include youtube.html youtubeid=youtube.id starttime=youtube.starttime ratio=youtube.ratio %}
-  {% endif %}
-  </div>
-  </div>
-{% endif %}
 
-<div class="col-sm-6">
+        {% assign posts = (site.posts | where: "decor" , {{page.title}}) %}
 
-<div class="row">
-  {% if page.decor %}
-    <div class="col-sm-6">
-    <div class="module">
-    <p class="module-title">Decor</p>
-    {{page.decor}}
-    </div>
-    </div>
-  {% endif %}
+        <div class="scrollable">
+        <ul class="posts-list">
+          {% for post in posts reversed %}
+            <li class="posts-listitem">
+              {% assign youtube = post.media[0] %}
+              {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
+            </li>
+          {% endfor %}
+        </ul>
 
-  {% if page.icon %}
-    <div class="col-sm-6">
-      <div class="module">
-      <p class="module-title">Logo</p>
-      <figure class="set-icon">
-        {% include {{page.icon}} %}
-      </figure>
+
       </div>
     </div>
-  {% endif %}
-
-  {% if page.memo %}
-  <div class="col-sm-12">
-  <div class="module">
-  <p class="module-title">Historische uitzendingen</p>
-  {{page.memo}}
   </div>
   </div>
-  {% endif %}
 
+  <div class="row set-details">
 
-</div>
-</div>
-</div>
+    <div class="col-sm-12">
 
-<div class="row">
-  {% if content.size > 1 %}
-  <div class="col-sm-9">
-    <div class="module">
-    <p class="module-title">Trivia</p>
-    <div class="row">
-      <div class="col-sm-10">
-        {{content}}
-      </div>
-    </div>
-    </div>
-  </div>
-  {% endif %}
-
-  <div class="col-sm-3">
-    <div class="module">
-      <p class="module-title">Bekijk</p>
-
-      {% assign posts = (site.posts | where: "decor" , {{page.title}}) %}
-
-      {% if posts.size > 7 %}
-        {% assign class = "many" %}
+      {% if page.generiek %}
+        <div class="module">
+          <div class="module-inner">
+            <p class="module-title">Generiek</p>
+            <p>{{page.generiek}}</p>
+          </div>
+        </div>
       {% endif %}
 
-      <ul class="posts-list {{class}}">
-        {% for post in posts %}
-          <li class="posts-listitem">
-            {% assign youtube = post.media[0] %}
-            {% include post.html url=post.url youtubeid=youtube.id date=post.date title=post.title %}
-          </li>
-        {% endfor %}
-      </ul>
+      {% if page.decor %}
+      <div class="module">
+        <div class="module-inner">
+        <p class="module-title">Decor</p>
+        {{page.decor}}
+        <p>
+          <span class="text-muted">Kleurenpalet</span>
+          {% for kleur in page.kleuren %}
+          <span style="background-color: {{kleur}}" class="colour"></span>
+          {% endfor %}
+        </p>
+        </div>
+      </div>
+      {% endif %}
 
+      {% if page.memo %}
+      <div class="module">
+        <div class="module-inner">
+        <p class="module-title">Memorabele uitzendingen</p>
+          {{page.memo}}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+  </div>
+
+  <div class="row set-details">
+     <div class="col-sm-12">
+      {% if content.size > 1 %}
+      <div class="module">
+        <div class="module-inner">
+          <p class="module-title">Trivia</p>
+          <div class="trivia">
+          {{content}}
+          </div>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
+
+
 </div>
+
+{% include subnav.html %}

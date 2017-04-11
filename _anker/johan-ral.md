@@ -3,7 +3,7 @@ title: Johan Ral
 icon: "svg/ankers/johanral.svg"
 layout: anker
 birth: 1953
-bio: Johan begon zijn loopbaan als rockjournalist. Daar interviewde hij Paul Mc Cartney. Later ging hij de toenmalige BRT werken. Tien jaar later maakte hij de overstap naar het bedrijfsleven.
+bio: Johan begint zijn loopbaan als rockjournalist en interviewt Paul Mc Cartney. Later gaat hij bij e toenmalige BRT werken. Tien jaar later stapt hij over het bedrijfsleven.
 ---
 
 * Johan is nu communicatieadviseur.

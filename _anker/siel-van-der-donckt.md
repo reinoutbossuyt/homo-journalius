@@ -15,9 +15,10 @@ quotes:
 
 * Siel Van der Donckt zal altijd geassocieerd blijven met drie grote verhalen die ze voor de nieuwsdienst verzorgde: Nelson Mandela, de dioxinecrisis en het mysterie rond het paneel van de Rechtvaardige Rechters.
 
-* Al drie dagen na zijn bevrijding in 1990 kon Siel Van der Donckt de Zuid-Afrikaanse vrijheidsstrijder interviewen in zijn tuin. “Ik was heel verbaasd dat ik toen bij Mandela ben geraakt. De jaren voordien had ik wel al mijn vrije tijd opgespaard om op eigen houtje naar Zuid-Afrika te reizen. Daar heb ik toen een netwerk uitgebouwd en dat heeft achteraf gerendeerd.”
+* Al drie dagen na zijn bevrijding in 1990 kon Siel Van der Donckt de Zuid-Afrikaanse vrijheidsstrijder interviewen in zijn tuin.
+  > Ik was heel verbaasd dat ik toen bij Mandela ben geraakt. De jaren voordien had ik wel al mijn vrije tijd opgespaard om op eigen houtje naar Zuid-Afrika te reizen. Daar heb ik toen een netwerk uitgebouwd en dat heeft achteraf gerendeerd.
 
-* Het was ook Van der Donckt die de dioxinecrisis in 1999 naar buiten bracht. In 2000 schreef ze het boek Vet drijft altijd boven over de dioxinecrisis.
+* Het was ook Van der Donckt die de dioxinecrisis in 1999 naar buiten bracht. In 2000 schreef ze het boek <cite>Vet drijft altijd boven</cite> over het schandaal.
 
 * Recent scoorde Siel dan weer enkele primeurs over de zoektocht naar het verdwenen paneel van de Rechtvaardige Rechters.
 *  In de jaren 90 deed het gerucht de ronde dat Van der Donckt samen met collega-journalisten Gui Polspoel, Rudi Vranckx en Martine Tanghe als spion zou werken voor de Russische inlichtingendienst KGB.

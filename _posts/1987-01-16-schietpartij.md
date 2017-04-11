@@ -7,6 +7,6 @@ media:
     endtime: 0
 ankers:
   - Johan Ral
-decor: 1981-1987
+decor: 1984-1987
 hour: "19:45"
 ---

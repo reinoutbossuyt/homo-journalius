@@ -3,6 +3,7 @@ layout: default
 title: Fragmenten uit Het Journaal
 menu: fragmenten
 permalink: fragmenten/
+description: "Beleef een nostalgische trip door het verleden met oude Journaal-fragmenten."
 ---
 
 <div class="container-fluid">
@@ -13,11 +14,11 @@ permalink: fragmenten/
 
 <div class="text">
 
-<p>Tot voor 1987 werden geen volledige opnames van het journaal bijgehouden. Omdat het vroeger niet evident was om een volledige nieuwsuitzending te registreren is veel materiaal verloren gegaan.</p>
+<p>Vroeger werden <strong>geen volledige opnames van het journaal bijgehouden</strong>. Het was niet evident om een volledige nieuwsuitzending te registreren. Zo is veel materiaal verloren gegaan.</p>
 
-<p>Pas in 1987 werd beslist om het volledige journaal te bewaren, inclusief de in- en uitleidingen van ankers, de hoofdpunten, ... Dat kwam na een klacht tegen Martine Tanghe, die bij het voorlezen van een nieuwsonderwerp ongepast zou hebben geglimlacht.</p>
+<p>Pas in 1987 werd beslist om het <strong>volledige journaal</strong> te bewaren, inclusief de in- en uitleidingen van ankers, de hoofdpunten, ... Dat kwam na een klacht tegen Martine Tanghe, die bij het voorlezen van een nieuwsonderwerp ongepast zou hebben geglimlacht.</p>
 
-<P>Om dergelijke klachten in de toekomst te kunnen onderzoeken, werden voortaan volledige opnames van het nieuws bewaard. Aanvankelijk tot drie maanden na uitzending, maar al snel definitief. Op Youtube vind je gelukkig nog oudere fragmenten en zelfs volledige nieuwsuitzendingen, die eerder toevallig opgenomen zijn door kijkers.</p>
+<P>Om dergelijke klachten te kunnen onderzoeken, werden voortaan volledige opnames van het nieuws bewaard. Aanvankelijk tot drie maanden na uitzending, maar al snel <strong>definitief</strong>. Op Youtube vind je gelukkig nog oudere fragmenten en zelfs volledige nieuwsuitzendingen, die eerder toevallig opgenomen zijn door kijkers.</p>
 
 </div>
 

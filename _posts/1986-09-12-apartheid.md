@@ -5,7 +5,7 @@ media:
     id: Kzsk7Ta8UUM
     starttime: 19
     endtime: 0
-decor: 1981-1987
+decor: 1984-1987
 ankers:
   - Stefan Blommaert
 hour: "laat"

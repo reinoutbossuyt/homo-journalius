@@ -7,6 +7,7 @@ bio: Hanne werkt sinds 2005 voor de VRT. Ze is sinds 5 september 2012 nieuwsleze
 quotes:
   - quote: "België speelt tegen Ivoorkut."
     source: "Iedereen kan zich al eens misspreken. Het overkwam Hanne Decoutere tijdens Het Journaal."
+twitter: HanneDecoutere
 ---
 
 * Hanne was een tijd danseres in Het Swingpaleis en bij K3.

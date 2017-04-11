@@ -2,32 +2,30 @@
 layout: default
 ---
 
-{% include subnav.html %}
-
 <div class="container-fluid">
 
   <div class="row">
-    <div class="col-xs-12">
-      <h1 class="pagetitle">{{ page.title }}</h1>
+    <div class="col-md-8 col-sm-6">
+      <h1 class="pagetitle"><span>Journaalanker</span> {{ page.title }}</h1>
+      <p class="lead">{{page.bio}}</p>
     </div>
-  </div>
-
-  <div class="row">
-
     {% if page.icon != nil %}
-    <div class="col-sm-4">
+    <div class="col-md-4 col-sm-6">
     <figure class="anker-image">
       {% include {{page.icon}} %}
     </figure>
     </div>
     {% endif %}
+  </div>
+
+  <div class="row">
 
     <div class="col-sm-8">
 
       <div class="row">
 
       {% if page.birth != nil %}
-      <div class="col-sm-3">
+      <div class="col-sm-6">
       <div class="module">
       <p class="module-title">Geboren op</p>
       {{page.birth}}
@@ -35,11 +33,11 @@ layout: default
       </div>
       {% endif %}
 
-      {% if page.bio != nil %}
-      <div class="col-sm-9">
+      {% if page.twitter != nil %}
+      <div class="col-sm-6">
       <div class="module">
-      <p class="module-title">Bio</p>
-      {{page.bio}}
+      <p class="module-title">Twitter</p>
+      <a href="https://www.twitter.com/{{page.twitter}}" target="_blank" class="twitter-nick">{{page.twitter}}</a>
       </div>
       </div>
       {% endif %}
@@ -65,10 +63,10 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="col-sm-9">
+    <div class="col-sm-8">
       {% if content.size > 1 %}
       <div class="module">
-        <p class="module-title">Trivia</h3>
+        <p class="module-title">Trivia</p>
         {{ content }}
       </div>
       {% endif %}
@@ -101,3 +99,5 @@ layout: default
 </div>
 
 </div>
+
+{% include subnav.html %}

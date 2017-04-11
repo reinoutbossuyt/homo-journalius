@@ -3,21 +3,24 @@ layout: default
 title: Over
 menu: over
 permalink: over/
+description: "Homo Journalius is een ode aan Het Journaal"
 ---
 
 <div class="container-fluid">
 
 <h1 class="pagetitle">Over Homo Journalius</h1>
 
-<p class="lead">Deze site is een ode aan dagelijkse Het Journaal op de VRT.</p>
+<p class="lead">Deze site is een ode aan <cite>Het Journaal</cite>.</p>
 
 <div class="row">
 
 <div class="col-sm-7">
 
-<p>Een goede nieuwsuitzending is neutraal en objectief. Ja, zelfs geur- en smaakloos zoals een aardappel, aldus een <a href="/ankers/jan-becaus"><span class="text-link">oud-nieuwsanker</span></a>.</p>
+<p>Een goede nieuwsuitzending is neutraal en objectief. Ja, zelfs geur- en smaakloos zoals een aardappel volgens een <a href="/ankers/jan-becaus"><span class="text-link">oud-nieuwsanker</span></a>.</p>
 
-<p><strong>Deze site doet het omgekeerde en maakt van Het Journaal nieuws.</strong> Zo brengt hulde aan een dagelijkse live-uitzending waarin <a href="/1988/08/29/studio.html"><span class="text-link">al&nbsp;eens</span></a> <a href="/1997/09/01/bommelding.html"><span class="text-link">wat&nbsp;durft</span></a> <a href="/2012/07/18/honderd.html"><span class="text-link">foutlopen</span></a>. Het focust op de triviale weetjes achter de schermen en staat stil bij de bijzonderheden die anders snel voorbijgaan.</p>
+<p><strong>Deze site doet het omgekeerde en maakt van Het Journaal nieuws.</strong></p>
+
+<p>Zo brengt het hulde aan een dagelijkse live-uitzending waarin <a href="/1988/08/29/studio.html"><span class="text-link">al&nbsp;eens</span></a> <a href="/1997/09/01/bommelding.html"><span class="text-link">iets&nbsp;durft</span></a> <a href="/2012/07/18/honderd.html"><span class="text-link">fout te lopen</span></a>. Het focust op de triviale weetjes achter de schermen en staat stil bij de bijzonderheden die anders snel vergeten raken.</p>
 
 </div>
 

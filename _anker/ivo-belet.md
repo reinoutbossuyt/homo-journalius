@@ -7,4 +7,5 @@ bio: Ivo was anker van Het Journaal, De Zevende Dag en Ter Zake. Hij zetelt sind
 quotes:
   - quote: "Wat een klooiers. Hellemans (Leo Hellemans, HJ) die vliegt nu uit zijn vel hé. Dit is toch complete waanzin. Zo sluit je dit programma helemaal af hé. Dit was toch helemaal niet nodig."
     source: Ivo Belet tijdens de inval van de AEL in de 'Ter Zake'-studio.
+twitter: IvoBelet
 ---

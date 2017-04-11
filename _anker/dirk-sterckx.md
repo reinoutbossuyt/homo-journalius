@@ -3,15 +3,16 @@ title: Dirk Sterckx
 icon: "svg/ankers/dirk.svg"
 layout: anker
 birth: Herent, 25 september 1946
-bio: Dirk begon zijn carrière als journalist bij de toenmalige BRT-televisie in 1975. Hij was EG-correspondent, eindredacteur en chef-nieuws. Sterckx verliet in 1998 de VRT voor een politieke carière bij Open VLD.
+bio: Dirk begon zijn carrière als journalist bij de toenmalige BRT-televisie in 1975. Hij was Europa-correspondent, eindredacteur en chef Nieuws. Sterckx verliet in 1998 de VRT voor een politieke loopbaan bij Open VLD.
+twitter: dirksterckx
 ---
 
-* Dirk Sterckx werd opgevolgd door Stef Wauters.
+* Dirk werd opgevolgd door <a href="/anker/stef-wauters"><em>Stef Wauters</em></a>.
 
-* Dirk Sterckx vormde met Alain Coninx en Dirk Tieleman één van de pioniers van Ter Zake.
+* Hij vormde met Alain Coninx en Dirk Tieleman een van de pioniers van <cite>Ter Zake</cite>.
 
 <div class="alt">
   <h2>Alles komt terug met Dirk Sterckx</h2>
   {% include youtube.html youtubeid="cXMua4LBLbc" ratio="16_9" %}
-  <p class="muted"><small>Alles komt terug werd gepresenteerd door Mark Uytterhoeven en Rob Vanoudenhoven. In tweede aflevering zijn Dirk Sterckx, Martine Tanghe en Karel De Gucht te gast.</small></p>
+  <p class="muted"><small><cite>Alles komt terug</cite> werd gepresenteerd door Mark Uytterhoeven en Rob Vanoudenhoven. In de tweede aflevering zijn Dirk Sterckx, Martine Tanghe en Karel De Gucht te gast.</small></p>
 </div>

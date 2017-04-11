@@ -10,17 +10,17 @@ quotes:
   - quote: "Toen ik hier tijdens de eerste maanden de telefoon opnam, werd me vaak gevraagd of ze met een journalist konden spreken. Toen ik antwoordde dat ik journaliste was, viel er altijd een stilte."
 ---
 
-* In de jaren '80 neemt Martine een jaar loopbaanonderbreking om met haar man, Canvas-producer Jos Van Hemelrijck, te gaan zeilen op de Atlantische Oceaan.
+* In de jaren '80 neemt Martine een jaar loopbaanonderbreking om met haar man, Canvas-producer Jos Van Hemelrijck, een zeiltocht te maken op de Atlantische Oceaan.
 
-* Ze verliet op 31 december 1991 even de VRT om woordvoerster van de Vlaamse Raad te worden.
+* Ze verlaat op 31 december 1991 even de VRT om woordvoerster van de Vlaamse Raad te worden.
 
 * Martine wordt geroemd omwille van de heldere manier waarop ze de nieuwsitems inleidt.
 
-* In 2005 las ze voor de eerste keer het Groot Dictee der Nederlandse Taal voor. Een job die later wordt overgenomen door <a href="/anker/freek-braeckman"><em>Freek Braeckman</em></a>.
+* In 2005 leest ze voor de eerste keer <cite>Het Groot Dictee der Nederlandse Taal</cite> voor. Een job die later wordt overgenomen door <a href="/anker/freek-braeckman"><em>Freek Braeckman</em></a>.
 
-* In 2008 kreeg Martine en eervolle vermelding als "International TV personality of the year".
+* In 2008 krijgt Martine en eervolle vermelding als "International TV personality of the year".
 
-* Van 2008 tot 2011 presenteerde ze samen met Kobe Ilsen ook het consumentenprogramma 'Volt'.
+* Van 2008 tot 2011 presenteert ze samen met Kobe Ilsen ook het consumentenprogramma <cite>Volt</cite>.
 
 * Eind 2011 werd er borstkanker vastgesteld bij het nieuwsanker, waardoor ze bijna een jaar van het scherm verdween. Ze maakt haar terugkeer tijdens de verkiezingsshow in 2012.
 
