@@ -1,6 +1,6 @@
 ---
 title: Martine Tanghe
-icon: "svg/ankers/martine.svg"
+icon: "martine"
 layout: anker
 birth: Bellem, 23 november 1955
 bio: Martine Tanghe is veruit de bekendste van alle VRT-nieuwslezers en is voor de buitenwereld dan ook vaak het gezicht van de nieuwsdienst.

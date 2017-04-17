@@ -8,7 +8,7 @@
   <div class="post-text">
   <div class="module">
     <p class="module-title"><a href="{{ include.url | relative_url }}">
-    <span class="post-meta">{{ include.date | date: "%Y-%m-%d" }}<br/>
+    <span class="post-meta">{% include datum.html date=include.date %}<br/>
     <strong>{{ include.title }}</strong></span></a></p>
   </div>
   </div>

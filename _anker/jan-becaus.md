@@ -1,6 +1,6 @@
 ---
 title: Jan Becaus
-icon: "svg/ankers/jan.svg"
+icon: "jan"
 layout: anker
 birth: Gent, 18 juli 1948
 quotes:

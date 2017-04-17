@@ -17,7 +17,8 @@ permalink: sets/
        <a href="{{set.url}}">
           <span class="text-link">{{set.title}}</span>
           <figure class="timeline-image">
-            {% include {{set.icon}} %}
+            {% capture icon %}/svg/decors/{{set.icon}}.svg{% endcapture %}
+            {% include {{icon}} %}
           </figure>
         </a>
     </li>

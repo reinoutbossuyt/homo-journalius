@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 <div class="container-fluid">
   <article class="post set-{{page.decor}}">
     <div class="video">
@@ -31,33 +30,7 @@ layout: default
           <div class="col-xs-12">
             <div class="module">
               <p class="module-title">Uitzenddatum</p>
-                <span class="post-date">
-                  <span class="day">{{ page.date | date: "%d" }}</span>
-                  <span class="aside">
-                    <span class="month-year">
-                      <!-- Whitespace added for readability -->
-                      {% assign m = page.date | date: "%-m" %}
-                      {% case m %}
-                        {% when '1' %}januari
-                        {% when '2' %}februari
-                        {% when '3' %}maart
-                        {% when '4' %}april
-                        {% when '5' %}mei
-                        {% when '6' %}juni
-                        {% when '7' %}juli
-                        {% when '8' %}augustus
-                        {% when '9' %}september
-                        {% when '10' %}oktober
-                        {% when '11' %}november
-                        {% when '12' %}december
-                      {% endcase %}
-                      {{ page.date | date: "%Y" }}
-                    </span>
-                    <span class="time">
-                      {{ page.hour }}
-                    </span
-                  </span>
-                </span>
+              {% include datum.html date=page.date time=page.time %}
             </div>
           </div>
         </div>

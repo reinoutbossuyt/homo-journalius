@@ -1,6 +1,6 @@
 ---
 title: Yves Ponnette
-icon: "svg/ankers/yves.svg"
+icon: "yves"
 layout: anker
 birth: Aarschot, 12 maart 1974
 bio: Yves presenteerde in 2011 tijdelijk het nieuws van 18, 20 en 23 uur.

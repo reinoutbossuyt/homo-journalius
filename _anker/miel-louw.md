@@ -1,6 +1,6 @@
 ---
 title: Miel Louw
-icon: "svg/ankers/miel.svg"
+icon: "miel"
 layout: anker
 birth: 26 mei 1933 - 8 december 2007
 bio: Miel presenteerde in de jaren '60 het Journaal. In 1993 ging hij met pensioen.

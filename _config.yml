@@ -22,8 +22,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
   set:
     output: true
+    permalink: /set/:title/
   anker:
     output: true
+    permalink: /anker/:title/
 defaults:
   -
     scope:
@@ -47,5 +49,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - artwork
+  - bower_components/jquery/src
+  - bash.sh
+  - gulpfile.js
 sass:
     sass_dir: _sass
+google:
+  tag_manager:
+    container_id: GTM-P6Z548D

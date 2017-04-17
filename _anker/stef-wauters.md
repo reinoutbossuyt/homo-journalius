@@ -1,6 +1,6 @@
 ---
 title: Stef Wauters
-icon: "svg/ankers/stef.svg"
+icon: "stef"
 layout: anker
 birth: Geetbets, 12 mei 1967
 bio: Stef was werd een van de belangrijkste gezichten van het vernieuwde Journaal in 2002, waarmee de VRT opnieuw marktleider werd. Wauters maakte in september 2003 de overstap naar de commerciële zender VTM.

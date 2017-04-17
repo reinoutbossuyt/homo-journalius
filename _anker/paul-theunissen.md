@@ -1,6 +1,6 @@
 ---
 title: Paul Theunissen
-icon: "svg/ankers/pault.svg"
+icon: "pault"
 layout: anker
 birth: Aalst, 26 maart 1961
 bio: Paul Theunissen presenteerde Het Journaal eind jaren '80.

@@ -1,6 +1,6 @@
 ---
 title: Jacques Vandersichel
-icon: "svg/ankers/jacques.svg"
+icon: "jacques"
 layout: anker
 quotes:
   - quote: "Presenteren, dat deed ik eigenlijk niet graag. Ik hield meer van het veldwerk."

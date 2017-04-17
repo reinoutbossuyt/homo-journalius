@@ -1,14 +1,25 @@
+{% if page.previous.layout == "post" %}
+  {% capture previousTitle %}
+    <span class="nav-meta">{% include datum.html date=page.previous.date %}</span><br/><span class="nav-title">{{page.previous.title}}</span>
+    {% endcapture %}
+    {% capture nextTitle %}
+        <span class="nav-meta">{% include datum.html date=page.next.date %}</span><br/><span class="nav-title">{{page.next.title}}</span>
+    {% endcapture %}
+{% else %}
+  {% assign previousTitle = {{page.previous.title}} %}
+  {% assign nextTitle = {{page.next.title}} %}
+{% endif %}
+
 <div class="rect-pagination">
   {% if page.previous.url %}
   <a class="rect-pagination-item prev" href="{{page.previous.url}} ">
-    &larr; <span class="nav-title">{{page.previous.title}}</span>
+    &larr;<br/> <span class="nav-title">{{previousTitle}}</span>
   </a>
   {% endif %}
 
   {% if page.next.url %}
   <a class="rect-pagination-item next" href="{{page.next.url}}">
-    <span class="nav-title">{{page.next.title}}</span> &rarr;
+    &rarr;<br/><span class="nav-title">{{nextTitle}}</span>
   </a>
   {% endif %}
-
 </div>

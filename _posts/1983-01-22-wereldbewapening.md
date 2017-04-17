@@ -1,0 +1,11 @@
+---
+title:  "Wereldbewapening"
+media:
+  - type: youtube
+    id: erViblAL_nc
+    starttime: 0
+    endtime: 0
+ankers:
+  - Martine Tanghe
+decor: 1977-1984
+---

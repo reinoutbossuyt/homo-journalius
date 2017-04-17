@@ -1,6 +1,6 @@
 ---
 title: Tuur Van Wallendael
-icon: "svg/ankers/tuur.svg"
+icon: "tuur"
 layout: anker
 birth: Borgerhout, 29 september 1938 - Antwerpen, 18 november 2009
 quotes:

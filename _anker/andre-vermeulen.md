@@ -1,6 +1,6 @@
 ---
 title: André Vermeulen
-icon: "svg/ankers/andre.svg"
+icon: "andre"
 layout: anker
 birth: Brugge, 25 oktober 1955
 period:

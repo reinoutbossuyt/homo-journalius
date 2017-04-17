@@ -1,6 +1,6 @@
 ---
 title: Bavo Claes
-icon: "svg/ankers/bavo.svg"
+icon: "bavo"
 layout: anker
 birth: Boom, 8 september 1949
 bio: Bavo Claes was een gerespecteerd nieuwsanker. Hij verliet de VRT in 2005 na hartproblemen. Hij werkte 30 jaar voor de openbare omroep.

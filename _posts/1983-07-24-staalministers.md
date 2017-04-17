@@ -8,4 +8,11 @@ media:
 ankers:
   - Bavo Claes
 decor: 1977-1984
+moments:
+  - timestamp: 108
+    description: Een kaart van Irak
+  - timestamp: 247
+    description: Een kaart van Libanon
+  - timestamp: 451
+    description: Een kaart van Latijns-Amerika
 ---

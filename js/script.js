@@ -1,23 +1,23 @@
 $( document ).ready(function() {
-  $(".moment-inline").click(function() {
+
+  $(".seek").click(function() {
     var sec = $(this).data("sec");
     seekTo(sec);
+    location.hash = "#video";
   });
 
   $(window).scroll(function() {
     $( '.trivia ul li:in-viewport' ).addClass("visible");
   });
 
-  if($('.anker-image').length > 0) {
-    var els = document.getElementsByClassName("anker-image");
+  if($('.drawing').length > 0) {
+    var els = document.getElementsByClassName("drawing");
     var svg = els[0].children[0];
-    new Vivus(svg, {type: 'delayed', duration: 300, animTimingFunction: Vivus.EASE_OUT});
+    new Vivus(svg, {type: 'delayed', duration: 300});
   }
 
-  if($('.set-image').length > 0) {
-    els = document.getElementsByClassName("set-image");
-    svg = els[0].children[0];
-    new Vivus(svg, {type: 'delayed', duration: 300, animTimingFunction: Vivus.EASE_OUT});
-  }
+});
 
+$(window).on('hashchange',function(){
+    window.location.reload(true);
 });

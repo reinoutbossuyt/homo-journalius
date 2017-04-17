@@ -10,7 +10,8 @@
   <div class="set {{type}}">
     <a href="{{set.url}}">
       <figure class="set-image">
-        {% include {{ set.icon }} %}
+        {% capture icon %}/svg/decors/{{set.icon}}.svg{% endcapture %}
+        {% include {{icon}} %}
       </figure>
       <p class="set-title"><span class="text-link">{{set.title}}</span></p>
     </a>

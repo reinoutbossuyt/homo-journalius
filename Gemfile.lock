@@ -1,12 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
+    addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.3.0)
+    jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -17,9 +17,9 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.9.1)
-      jekyll (~> 3.3)
     jekyll-footnotes (1.0.0)
+    jekyll-google-tag-manager (1.0.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -44,12 +44,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.3.0)
-  jekyll-feed (~> 0.6)
+  jekyll (= 3.4.3)
   jekyll-footnotes
+  jekyll-google-tag-manager
 
 RUBY VERSION
    ruby 2.0.0p648
 
 BUNDLED WITH
-   1.13.6
+   1.14.6

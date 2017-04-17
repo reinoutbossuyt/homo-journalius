@@ -16,7 +16,7 @@ description: "Homo Journalius is een ode aan Het Journaal"
 
 <div class="col-sm-7">
 
-<p>Een goede nieuwsuitzending is neutraal en objectief. Ja, zelfs geur- en smaakloos zoals een aardappel volgens een <a href="/ankers/jan-becaus"><span class="text-link">oud-nieuwsanker</span></a>.</p>
+<p>Een goede nieuwsuitzending is neutraal en objectief. Ja, zelfs geur- en smaakloos zoals een aardappel volgens een <a href="/ankers/jan-becaus/"><span class="text-link">oud-nieuwsanker</span></a>.</p>
 
 <p><strong>Deze site doet het omgekeerde en maakt van Het Journaal nieuws.</strong></p>
 
@@ -32,7 +32,7 @@ description: "Homo Journalius is een ode aan Het Journaal"
 <div class="col-sm-7">
 
 <div class="alt">
-<p>Ik ben niet gerelateerd aan de VRT. Al het aanwezige audiovisuele materiaal behoort oorspronkelijk toe aan de Vlaamse Radio en Televisie omroeporganisatie. Ik beoog met het publiceren van dit beelddocument geen enkele commerciële doeleinden. Deze documentaire dient geplaatst te worden in een bredere context van maatschappelijke dienstverlening (informatieverstrekking) binnen het kader van collectieve cultuurhistorische gebeurtenissen.</p>
+<p>Ik ben niet gerelateerd aan de VRT. Al het aanwezige audiovisuele materiaal behoort oorspronkelijk toe aan de Vlaamse Radio en Televisie omroeporganisatie. Ik beoog met het publiceren van deze beelddocumenten geen enkele commerciële doeleinden. Deze website kadert in een bredere context van maatschappelijke dienstverlening (informatieverstrekking) van collectieve cultuurhistorische gebeurtenissen.</p>
 </div>
 
 </div>
@@ -42,6 +42,7 @@ description: "Homo Journalius is een ode aan Het Journaal"
     <p class="module-title">Meer</p>
     <ul>
       <li><a href="https://twitter.com/homojournalius"><span class="text-link">Homo Journalius op Twitter</span></a></li>
+      <li><a href="https://www.facebook.com/hjournalius/"><span class="text-link">Homo Journalius op Facebook</span></a></li>
       <li><a href="http://www.vrt.be"><span class="text-link">VRT</span></a></li>
       <li><a href="http://www.deredactie.be"><span class="text-link">Deredactie.be</span></a></li>
     </ul>

@@ -1,6 +1,6 @@
 ---
 title: Alex Puissant
-icon: "svg/ankers/alex.svg"
+icon: "alex"
 layout: anker
 quotes:
   - quote: "Voor elk van u een goeienavond"

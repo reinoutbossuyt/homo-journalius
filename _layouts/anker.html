@@ -11,8 +11,9 @@ layout: default
     </div>
     {% if page.icon != nil %}
     <div class="col-md-4 col-sm-6">
-    <figure class="anker-image">
-      {% include {{page.icon}} %}
+    <figure class="anker-image drawing">
+      {% capture icon %}svg/ankers/{{page.icon}}.svg{% endcapture %}
+      {% include {{icon}} %}
     </figure>
     </div>
     {% endif %}
@@ -27,7 +28,7 @@ layout: default
       {% if page.birth != nil %}
       <div class="col-sm-6">
       <div class="module">
-      <p class="module-title">Geboren op</p>
+      <p class="module-title">Geboren</p>
       {{page.birth}}
       </div>
       </div>

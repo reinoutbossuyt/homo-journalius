@@ -1,6 +1,6 @@
 ---
 title: Stefan Blommaert
-icon: "svg/ankers/stefan.svg"
+icon: "stefan"
 layout: anker
 birth: Antwerpen, 15 juli 1958
 bio: Stefan kwam in 1984 bij de radionieuwsdienst van de toenmalige BRT werken. Hij stapte in 1985 over naar televisie, waar hij zowel verslaggeving als de presentatie van Het Journaal deed.

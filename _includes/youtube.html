@@ -1,46 +1,73 @@
-{% if include.ratio == "" }
-  {% assign ratio = 16_9 %}
-{% else %}
-  {% assign ratio = include.ratio %}
-{% endif %}
+    {% if include.ratio == "" }
+      {% assign ratio = 16_9 %}
+    {% else %}
+      {% assign ratio = include.ratio %}
+    {% endif %}
 
-{% if include.starttime %}
-  {% assign starttime = include.starttime %}
-{% else %}
-  {% assign starttime = 0 %}
-{% endif %}
+    {% if include.starttime %}
+      {% assign starttime = include.starttime %}
+    {% else %}
+      {% assign starttime = 0 %}
+    {% endif %}
 
-{% if include.endtime %}
-  {% assign endtime = include.endtime %}
-{% else %}
-  {% assign endtime = 0 %}
-{% endif %}
+    {% if include.endtime %}
+      {% assign endtime = include.endtime %}
+    {% else %}
+      {% assign endtime = 0 %}
+    {% endif %}
 
-<div class="videoWrapper ratio_{{ratio}}">
+    <a name="video"></a>
+    <div class="videoWrapper ratio_{{ratio}}">
 
-<div id="player"></div>
-</div>
+    <div id="player"></div>
+    </div>
 
-<script>
-  var tag = document.createElement('script');
+    <script>
+      var tag = document.createElement('script');
 
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-  var player;
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-      height: '390',
-      width: '640',
-      playerVars: {
-        start: {{starttime}}},
-      videoId: '{{ include.youtubeid }}'
-    });
-  }
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          playerVars: {
+            start: {{starttime}}},
+          videoId: '{{ include.youtubeid }}',
+          events: {
+            'onStateChange': onPlayerStateChange,
+            'onReady': onPlayerReady
+          }
+        });
+      }
 
-  function seekTo(seconds){
-    player.seekTo(seconds)
-  }
+      function seekTo(seconds){
+        player.seekTo(seconds);
+         dataLayer.push({
+          'event': 'gaEvent',
+          'eventCategory': 'video',
+          'eventAction': 'seek',
+          'eventLabel': '{{ include.youtubeid }}'
+        });
+      }
 
-</script>
+      function onPlayerReady(event) {
+        document.getElementById('player').className += " ready";
+      }
+
+      function onPlayerStateChange(event) {
+        if (event.data == 1) {
+           dataLayer.push({
+            'event': 'gaEvent',
+            'eventCategory': 'video',
+            'eventAction': 'play',
+            'eventLabel': '{{ include.youtubeid }}'
+          });
+        }
+      }
+
+
+    </script>

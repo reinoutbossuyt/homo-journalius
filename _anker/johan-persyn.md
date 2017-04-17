@@ -1,6 +1,6 @@
 ---
 title: Johan Persyn
-icon: "svg/ankers/johan.svg"
+icon: "johan"
 layout: anker
 quotes:
   - quote: "Toen noemde men mij het zandmannetje van de VRT."

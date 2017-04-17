@@ -3,10 +3,11 @@
 <div class="moments size-{{page.moments.size}}">
 {% for moment in page.moments %}
   <div class="moment">
-    <a onclick="player.seekTo({{moment.timestamp}})" class="moment-stamp">
-    {{ moment.timestamp | divided_by: 60 | plus: 100 | slice: 1, 2 }}:{{ moment.timestamp | modulo: 60 | plus: 100 | slice: 1, 2 }}
+    <a class="moment-stamp seek" data-sec="{{moment.timestamp}}">{{ moment.timestamp | divided_by: 60 | plus: 100 | slice: 1, 2 }}:{{ moment.timestamp | modulo: 60 | plus: 100 | slice: 1, 2 }}
     </a>
-    <span class="moment-description">{{moment.description}}</span>
+    <a class="moment-link seek" data-sec="{{moment.timestamp}}">
+      <span class="moment-description">{{moment.description}}</span>
+    </a>
   </div>
 {% endfor %}
 </div>

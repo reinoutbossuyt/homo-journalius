@@ -13,4 +13,4 @@ hour: "extra"
 
 * Onderaan in beeld loopt een klokje mee.
 
-* De volgende dag was er om 13 uur nog geen middagjournaal: daarom kondigt het anker het extra journaal aan de dag erop <span class="moment-inline" data-sec="443">07:23</span>.
+* De volgende dag was er om 13 uur nog geen middagjournaal: daarom kondigt het anker het extra journaal aan de dag erop <span class="moment-inline seek" data-sec="443">07:23</span>.

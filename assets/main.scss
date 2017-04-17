@@ -20,6 +20,11 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+@media screen and (min-width: 1200px) {
+  .container-fluid {
+      padding: 0 30px !important;
+  }
+}
 
 @media screen and (min-width: 767px) {
   .set-details .module-inner {
@@ -44,6 +49,16 @@ html {
   background-color: #000;
   color: #FFF;
   margin-bottom: 30px;
+
+  a,
+  a:hover {
+    color: #FFF;
+
+    em,
+    .text-link {
+      color: #FFF;
+    }
+  }
 }
 
 body {
@@ -119,7 +134,7 @@ h4 {
 
 .set-image svg {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 
   path {
@@ -304,11 +319,6 @@ ul {
   padding-bottom: 10px;
 }
 
-.year {
-  @extend .accent;
-  font-size: 5rem;
-}
-
 ::selection {
   background: #232220;
   color: #fff;
@@ -328,7 +338,7 @@ ul {
 
     li {
       margin: 0;
-      padding: 0 0 0 15%;
+      padding: 0 0 0 75px;
       list-style: none;
       position: relative;
 
@@ -343,6 +353,7 @@ ul {
         left: 0;
         top: 0;
         opacity: 0;
+        transform: translate(-20px, 0);
         transition: all 2s ease;
       }
 
@@ -358,10 +369,13 @@ ul {
       &.visible {
 
         &:before {
+          // counter
+          transform: translate(0, 0);
           opacity: 1;
         }
 
         &:after {
+          // line
           width: 20%;
         }
       }
@@ -479,6 +493,7 @@ dd {
 	padding-top: 25px;
 	height: 0;
   margin-bottom: 10px;
+  background-image: url(/img/loading.svg);
 }
 
 .ratio_4_3 {
@@ -495,6 +510,12 @@ dd {
 	left: 0;
 	width: 100%;
 	height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.videoWrapper iframe.ready {
+  opacity: 1;
 }
 
 .post-title {
@@ -566,91 +587,11 @@ dl > .anker-description:last-child {
   }
 }
 
-/*
-.set-2016 .post-title {
-  $c2016: #009EBB;
-  color: $c2016;
-}
-
-.set-2013-2016 .post-title {
-  $c2013: #E1E2E8;
-  color: $c2013;
-}
-
-.set-2008-2013 .post-title {
-  $c2008: #1B1D1F;
-  color: $c2008;
-}
-
-.set-2002-2008 .post-title {
-  $c2002: #8B86A2;
-  color: $c2002;
-}
-
-.set-1997-2002 .post-title {
-  $c1997: #EFB759;
-  color: $c1997;
-}
-
-.set-1996-1997 .post-title {
-  $c1996: #5D7AA7;
-  color: $c1996;
-}
-
-.set-1994-1996 .post-title {
-  color: #A9BE92;
-}
-
-.set-1989-1994 .post-title {
-  color: #43504B;
-}
-
-.set-1987-1989 .post-title {
-  $c1987: #A48760;
-  color: $c1987;
-}
-
-.set-1981-1987 .post-title {
-  $c1981: #5E5F5E;
-  color: $c1981;
-}
-
-.set-1977-1981 .post-title {
-  $c1977: #59A992;
-  color: $c1977;
-}
-*/
-
-
 .post-date {
   display: inline-block;
   clear: both;
-
-  .day {
-    @extend .accent;
-    font-size: 4rem;
-    line-height: 1;
-    float: left;
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  .aside {
-    float: left;
-  }
-
-  .month-year {
-    line-height: 25px;
-    font-weight: 600;
-    float: left;
-  }
-
-  .time {
-    line-height: 25px;
-    font-weight: 300;
-    float: left;
-    clear: both;
-  }
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .set-colors {
@@ -707,8 +648,29 @@ blockquote {
   letter-spacing: 0;
   font-size: 1.5rem;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.25rem 2.5rem;
   font-weight: 200;
+  position: relative;
+
+  &:before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:0;
+  }
+
+  &:after{
+  /*Reset to make sure*/
+    content: "";
+  }
 }
 
 .source {
@@ -741,7 +703,16 @@ blockquote {
   color: $body-color;
 }
 
-.post .nav-fragmenten,
+.nav-title {
+  font-weight: bold;
+}
+
+.nav-meta {
+  font-size: 75%;
+  font-weight: normal;
+}
+f
+.post .f-fragmenten,
 .page-fragmenten .nav-fragmenten,
 .page-ankers .nav-ankers,
 .anker .nav-ankers,
@@ -752,6 +723,7 @@ blockquote {
 }
 
 .timeline-list {
+  margin-left: 150px;
   margin-top: 50px;
   border-left: 1px solid #000;
 
@@ -762,6 +734,8 @@ blockquote {
     padding: 0;
     margin-left: 15px;
     margin-bottom: 15px;
+    position: relative;
+    min-height: 125px;
 
     &:hover {
       color: #DDD;
@@ -797,11 +771,6 @@ blockquote {
     margin-left: 50%;
   }
 
-  .timeline-item {
-    position: relative;
-    min-height: 90px;
-  }
-
   .sets {
     margin: 25px auto;
     width: 33%;
@@ -811,6 +780,16 @@ blockquote {
 .highlight {
   text-align: center;
   margin-bottom: 50px;
+  padding-bottom: 20px;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+
+    .highlight-selector {
+      font-weight: 700;
+    }
+  }
 
   .highlight-big {
     @extend .accent;
@@ -834,7 +813,8 @@ blockquote {
     line-height: 1;
     margin: 0;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 300;
+    margin-top: 15px;
   }
 }
 
@@ -880,7 +860,7 @@ blockquote {
     font-size: 1.75rem;
     line-height: 1.1;
     display: block;
-    margin: 20px 10px 10px 10px;
+    margin: 20px 10px 20px 10px;
     text-align: center;
 
     strong {
@@ -963,16 +943,17 @@ footer {
 }
 
 .btn-inverse {
-  border: 1px solid #FFF;
-  background-color: #000;
-  color: #FFF;
-  padding: 6px 8px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  background-color: #FFF;
+  color: #000;
+  padding: 12px 16px;
   transition: all 0.2s;
   border-radius: 1px;
 
   &:hover {
-    background-color: #FFF;
-    color: #000;
+    background-color: #000;
+    color: #FFF;
     border-color: #000;
   }
 }
@@ -1027,6 +1008,10 @@ footer {
     padding-left: 80px;
   }
 
+  .moment-link:hover {
+    cursor: pointer;
+  }
+
   .moment-stamp {
     top: 0;
     left: 0;
@@ -1065,7 +1050,7 @@ footer {
   .anker {
     position: relative;
     padding-left: 20%;
-    height: 55px;
+    height: 75px;
   }
 
   .anker-image {
@@ -1107,19 +1092,26 @@ footer {
   cursor: pointer;
   font-size: 0.85rem;
   display: inline-block;
-  background-color: $body-color;
+  background-color: transparent;
   border: 1px solid $border-color;
   margin-bottom: 10px;
-  color: #FFF;
   line-height: 1;
-  padding: 6px 4px 4px;
+  padding: 4px;
   min-width: 70px;
   text-align: center;
   border-radius: 3px;
   letter-spacing: 0.2px;
 
   &:before {
-    content: ">";
+    content: " ";
+    background-image: url(/img/fastforward.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-position-y: 3px;
+    width: 13px;
+    height: 0.85rem;
+    display: inline-block;
   }
 
   &:hover {
@@ -1144,6 +1136,18 @@ footer {
   text-align: center;
   border-radius: 3px;
   letter-spacing: 1px;
+
+  &:before {
+    content: " ";
+    background-image: url(/img/fastforward.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-position-y: 3px;
+    width: 13px;
+    height: 0.85rem;
+    display: inline-block;
+  }
 }
 
 .moment-description {
@@ -1279,11 +1283,9 @@ footer {
   }
 }
 
-
 .post {
   blockquote {
     font-size: 1.03rem;
-    padding: 10px;
     font-weight: 100;
   }
 }
@@ -1318,7 +1320,7 @@ figure {
 .no-fragments {
   @extend .lead;
   text-align: center;
-  margin: 1rem 0;
+  margin: 20px 0 40px 0;
   color: $body-muted;
 }
 
@@ -1410,4 +1412,10 @@ figure {
     background-position: bottom center;
     margin-right: 6px;
   }
+}
+
+.error {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
 }

@@ -1,6 +1,6 @@
 ---
 title: Goedele Wachters
-icon: "svg/ankers/goedele.svg"
+icon: "goedele"
 layout: anker
 birth: Leuven, 13 juni 1975
 quotes:

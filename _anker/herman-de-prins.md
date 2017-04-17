@@ -1,6 +1,6 @@
 ---
 title: Herman De Prins
-icon: "svg/ankers/herman.svg"
+icon: "herman"
 layout: anker
 birth:
 bio: Herman ging in 1971 aan de slag als journalist bij de BRT waar hij opklom tot  nieuwslezer en eindredacteur.

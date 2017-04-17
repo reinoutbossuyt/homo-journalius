@@ -1,6 +1,6 @@
 ---
 title: Paul Muys
-icon: "svg/ankers/paul-muys.svg"
+icon: "paul-muys"
 layout: anker
 birth: Antwerpen, 21 november 1945
 bio: Paul werkte als journalist van Het Journaal, medewerker en nieuwsanker van Panorama en redactiesecretaris. Vanaf 1985 wordt hij - samen met William Van Laeken - het vaste gezicht van Panorama.

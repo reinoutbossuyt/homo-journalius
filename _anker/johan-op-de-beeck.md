@@ -1,6 +1,6 @@
 ---
 title: Johan Op De Beeck
-icon: "svg/ankers/johanodb.svg"
+icon: "johanodb"
 layout: anker
 birth: Duffel, 15 maart 1957
 bio: Johan begon z'n loopbaan als journalist in 1980.
