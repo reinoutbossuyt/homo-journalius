@@ -16,7 +16,7 @@ description: "Homo Journalius is een ode aan Het Journaal"
 
 <div class="col-sm-7">
 
-<p>Een goede nieuwsuitzending is neutraal en objectief. Ja, zelfs geur- en smaakloos zoals een aardappel volgens een <a href="/ankers/jan-becaus/"><span class="text-link">oud-nieuwsanker</span></a>.</p>
+<p>Een goede nieuwsuitzending is neutraal en objectief. Ja, zelfs geur- en smaakloos zoals een aardappel volgens een <a href="/anker/jan-becaus/"><span class="text-link">oud-nieuwsanker</span></a>.</p>
 
 <p><strong>Deze site doet het omgekeerde en maakt van Het Journaal nieuws.</strong></p>
 

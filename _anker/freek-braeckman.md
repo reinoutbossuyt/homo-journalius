@@ -7,7 +7,7 @@ bio: Freek wordt in november 2007 een van de vaste journaalankers. Hij presentee
 twitter: freek_braeckman
 ---
 
-* Freek werd 25 keer tot Belgisch kampioen gekroond en stond ooit op de 32ste plaats op de wereldranglijst. In 2000 won hij zelfs een wereldbekertornooi in Iran.
+* Freek werd 25 keer tot Belgisch kampioen schermen gekroond en stond ooit op de 32ste plaats op de wereldranglijst. In 2000 won hij zelfs een wereldbekertornooi in Iran.
 
 * Freek is getrouwd en heeft twee dochters.
 

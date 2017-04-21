@@ -19,7 +19,7 @@
     <a name="video"></a>
     <div class="videoWrapper ratio_{{ratio}}">
 
-    <div id="player"></div>
+    <div id="player{{ include.youtubeid }}"></div>
     </div>
 
     <script>
@@ -31,7 +31,7 @@
 
       var player;
       function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
+        player = new YT.Player('player{{ include.youtubeid }}', {
           height: '390',
           width: '640',
           playerVars: {
@@ -55,7 +55,7 @@
       }
 
       function onPlayerReady(event) {
-        document.getElementById('player').className += " ready";
+        document.getElementById('player{{ include.youtubeid }}').className += " ready";
       }
 
       function onPlayerStateChange(event) {
