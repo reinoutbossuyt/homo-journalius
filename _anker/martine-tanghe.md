@@ -1,13 +1,17 @@
 ---
 title: Martine Tanghe
-icon: "martine"
+icon: martine
 layout: anker
 birth: Bellem, 23 november 1955
-bio: Martine Tanghe is veruit de bekendste van alle VRT-nieuwslezers en is voor de buitenwereld dan ook vaak het gezicht van de nieuwsdienst.
+bio: Martine Tanghe is veruit de bekendste van alle VRT-nieuwslezers en is voor de
+  buitenwereld dan ook vaak het gezicht van de nieuwsdienst.
 quotes:
-  - quote: "Ik moest gewoon beter zijn dan de mannen om gewoon een beetje goed gevonden te worden."
-    source: "Tanghe was pas de tweede vrouw op de redactie."
-  - quote: "Toen ik hier tijdens de eerste maanden de telefoon opnam, werd me vaak gevraagd of ze met een journalist konden spreken. Toen ik antwoordde dat ik journaliste was, viel er altijd een stilte."
+- quote: Ik moest gewoon beter zijn dan de mannen om gewoon een beetje goed gevonden
+    te worden.
+  source: Tanghe was pas de tweede vrouw op de redactie.
+- quote: Toen ik hier tijdens de eerste maanden de telefoon opnam, werd me vaak gevraagd
+    of ze met een journalist konden spreken. Toen ik antwoordde dat ik journaliste
+    was, viel er altijd een stilte.
 ---
 
 * In de jaren '80 neemt Martine een jaar loopbaanonderbreking om met haar man, Canvas-producer Jos Van Hemelrijck, een zeiltocht te maken op de Atlantische Oceaan.

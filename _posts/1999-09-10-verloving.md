@@ -1,15 +1,16 @@
 ---
-title:  "Verloving"
+title: Verloving
+date: 1999-09-10 00:00:00 Z
 media:
-  - type: youtube
-    id: Ys2D7GQyzGQ
-    starttime: 0
-    endtime: 0
+- type: youtube
+  id: Ys2D7GQyzGQ
+  starttime: 0
+  endtime: 0
 ankers:
-  - Martine Tanghe
-  - Jan Becaus
+- Martine Tanghe
+- Jan Becaus
 decor: 1997-2002
-hour: "19:00"
+hour: '19:00'
 ---
 
 * Jan Becaus staat live aan het paleis in Laken <span class="moment-inline seek" data-sec="262">04:22</span>

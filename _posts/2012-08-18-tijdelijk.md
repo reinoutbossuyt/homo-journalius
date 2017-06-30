@@ -1,13 +1,14 @@
 ---
-title:  "Afbraak"
+title: Afbraak
+date: 2012-08-18 00:00:00 Z
 decor: 2008-2013
 ankers:
-  - Goedele Wachters
+- Goedele Wachters
 media:
-  - type: youtube
-    id: eooZiXJ37S8
-    starttime: 0
-    endtime: 0
+- type: youtube
+  id: eooZiXJ37S8
+  starttime: 0
+  endtime: 0
 ---
 
 <blockquote>

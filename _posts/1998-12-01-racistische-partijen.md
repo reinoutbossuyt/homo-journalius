@@ -1,15 +1,17 @@
 ---
-title:  "Racistische partijen"
+title: Racistische partijen
+date: 1998-12-01 00:00:00 Z
 media:
-  - type: youtube
-    id: kLtkqPslCws
-    starttime: 434
-    endtime: 0
+- type: youtube
+  id: kLtkqPslCws
+  starttime: 434
+  endtime: 0
 ankers:
-  - Ivo Belet
+- Ivo Belet
 decor: 1997-2002
-hour: "Laat"
+hour: Laat
 moments:
-  - timestamp: 1613
-    description: Tot slot van het journaal wordt beursnieuws gebracht.
+- timestamp: 1613
+  description: Tot slot van het journaal wordt beursnieuws gebracht.
 ---
+

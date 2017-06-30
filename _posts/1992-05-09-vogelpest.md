@@ -1,14 +1,15 @@
 ---
-title:  "Vogelpest"
+title: Vogelpest
+date: 1992-05-09 00:00:00 Z
 media:
-  - type: youtube
-    id: UgyDcPETWnM
-    starttime: 80
-    endtime: 0
+- type: youtube
+  id: UgyDcPETWnM
+  starttime: 80
+  endtime: 0
 ankers:
-  - Jan Becaus
+- Jan Becaus
 decor: 1989-1994
-hour: "19:30"
+hour: '19:30'
 ---
 
 * De hoofdpunten worden voorgelezen door Dirk Sterckx.

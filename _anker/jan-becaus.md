@@ -1,12 +1,14 @@
 ---
 title: Jan Becaus
-icon: "jan"
+icon: jan
 layout: anker
 birth: Gent, 18 juli 1948
 quotes:
-  - quote: "Ik heb mij altijd voorgenomen om als een goeie patat te zijn: geurloos, reukloos en smaakloos."
-    source: Jan Becaus in zijn afscheidinterviews
-bio: Jan was 28 jaar nieuwsanker van Het Journaal en maakt na zijn pensioen de verrassende overstap naar de N&#8209;VA.
+- quote: 'Ik heb mij altijd voorgenomen om als een goeie patat te zijn: geurloos,
+    reukloos en smaakloos.'
+  source: Jan Becaus in zijn afscheidinterviews
+bio: Jan was 28 jaar nieuwsanker van Het Journaal en maakt na zijn pensioen de verrassende
+  overstap naar de N&#8209;VA.
 ---
 
 * Het fameuze Becaus-Engels: 'Geen mens die mooier 'Dow Jones' kan uitspreken'. Of 'Usain Bolt'. Geen vulgair Amerikaans voor Jan, wel gepolijst Brits.

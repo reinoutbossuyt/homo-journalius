@@ -1,16 +1,20 @@
 ---
 title: Siel Van der Donckt
-icon: "siel"
+icon: siel
 layout: anker
 birth: 1953
 bio: In 1981 slaagde Siel voor het befaamde journalistenexamen van de BRT.
 quotes:
-  - quote: “Ik heb heel graag radio gedaan, maar er gaat niets boven met beeld werken. Met een minuut beeld kan je zoveel meer meegeven dan met een minuut tekst."
-    source: "In haar werk bij het televisiejournaal kon Siel haar hart als amateurfotograaf helemaal ophalen."
-  - quote: "We kregen geen kledingvergoeding en moesten dus improviseren. Dan kreeg je bakken kritiek omdat je kleren op niets trokken."
-    source: Een tijdlang was Van der Donckt Journaalanker.
-  - quote: "Als ik nog eens een gouden tip krijg over de Rechtvaardige Rechters, dan kom ik nog eens terug."
-    source: Zien we Siel nog terug op de nieuwsdienst?
+- quote: “Ik heb heel graag radio gedaan, maar er gaat niets boven met beeld werken.
+    Met een minuut beeld kan je zoveel meer meegeven dan met een minuut tekst."
+  source: In haar werk bij het televisiejournaal kon Siel haar hart als amateurfotograaf
+    helemaal ophalen.
+- quote: We kregen geen kledingvergoeding en moesten dus improviseren. Dan kreeg je
+    bakken kritiek omdat je kleren op niets trokken.
+  source: Een tijdlang was Van der Donckt Journaalanker.
+- quote: Als ik nog eens een gouden tip krijg over de Rechtvaardige Rechters, dan
+    kom ik nog eens terug.
+  source: Zien we Siel nog terug op de nieuwsdienst?
 ---
 
 * Siel Van der Donckt zal altijd geassocieerd blijven met drie grote verhalen die ze voor de nieuwsdienst verzorgde: Nelson Mandela, de dioxinecrisis en het mysterie rond het paneel van de Rechtvaardige Rechters.

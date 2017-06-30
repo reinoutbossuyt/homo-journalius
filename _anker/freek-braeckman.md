@@ -1,9 +1,10 @@
 ---
 title: Freek Braeckman
-icon: "freek"
+icon: freek
 layout: anker
 birth: Gent, 20 februari 1979
-bio: Freek wordt in november 2007 een van de vaste journaalankers. Hij presenteert op 10 augustus 2012 voor het laatst Het Journaal en ging een talkshow presenteren.
+bio: Freek wordt in november 2007 een van de vaste journaalankers. Hij presenteert
+  op 10 augustus 2012 voor het laatst Het Journaal en ging een talkshow presenteren.
 twitter: freek_braeckman
 ---
 

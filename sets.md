@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Decors
-menu: sets
 permalink: sets/
+layout: default
+menu: sets
 ---
 
 <div class="container-fluid">

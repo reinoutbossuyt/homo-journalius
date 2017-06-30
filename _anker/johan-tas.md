@@ -1,6 +1,6 @@
 ---
 title: Johan Tas
-icon: "johantas"
+icon: johantas
 layout: anker
 bio: Johan begint als nieuwslezer in 1991 en is sinds 1998 eindredacteur van het VRT-journaal.
 ---

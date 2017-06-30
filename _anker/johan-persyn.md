@@ -1,11 +1,11 @@
 ---
 title: Johan Persyn
-icon: "johan"
+icon: johan
 layout: anker
 quotes:
-  - quote: "Toen noemde men mij het zandmannetje van de VRT."
-    source: Persyn was jarenlang vast anker van het laatavondnieuws.
-bio: "Johan Persyn was van 1989 tot 1993 nieuwslezer, vooral van het laatavondnieuws."
+- quote: Toen noemde men mij het zandmannetje van de VRT.
+  source: Persyn was jarenlang vast anker van het laatavondnieuws.
+bio: Johan Persyn was van 1989 tot 1993 nieuwslezer, vooral van het laatavondnieuws.
 ---
 
 * Persyn werd plots aan de kant geschoven als nieuwslezer. Daarover zegt{% fn %} hij later:

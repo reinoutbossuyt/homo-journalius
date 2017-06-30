@@ -1,6 +1,6 @@
 ---
 title: Lucien Boussé
-icon: "lucien"
+icon: lucien
 layout: anker
 birth: 1925 - 18 november 1998, Lokeren
 bio: Lucien presenteerde vanaf 1964 het nieuws en maakte Panorama-reportages.

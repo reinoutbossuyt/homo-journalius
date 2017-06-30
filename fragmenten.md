@@ -1,9 +1,9 @@
 ---
-layout: default
 title: Fragmenten uit Het Journaal
-menu: fragmenten
 permalink: fragmenten/
-description: "Beleef een nostalgische trip door het verleden met oude Journaal-fragmenten."
+layout: default
+menu: fragmenten
+description: Beleef een nostalgische trip door het verleden met oude Journaal-fragmenten.
 ---
 
 <div class="container-fluid">

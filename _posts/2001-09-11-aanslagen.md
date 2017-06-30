@@ -1,16 +1,17 @@
 ---
-title:  "Aanslagen 11 september"
+title: Aanslagen 11 september
+date: 2001-09-11 00:00:00 Z
 media:
-  - type: youtube
-    id: 9Rm4ULVK3-Q
-    starttime: 0
-    endtime: 0
-decor: "1997-2002"
+- type: youtube
+  id: 9Rm4ULVK3-Q
+  starttime: 0
+  endtime: 0
+decor: 1997-2002
 ankers:
-  - Martine Tanghe
-  - Sigrid Spruyt
-  - Wim De Vilder
-  - Stef Wauters
+- Martine Tanghe
+- Sigrid Spruyt
+- Wim De Vilder
+- Stef Wauters
 hour: extra
 ---
 

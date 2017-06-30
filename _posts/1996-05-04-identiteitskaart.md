@@ -1,13 +1,16 @@
 ---
-title:  "Identiteitskaart"
+title: Identiteitskaart
+date: 1996-05-04 00:00:00 Z
+tags:
+- Laat
 media:
-  - type: youtube
-    id: 5Xqq0L2S-3w
-    starttime: 97
-    endtime: 0
-tags: Laat
+- type: youtube
+  id: 5Xqq0L2S-3w
+  starttime: 97
+  endtime: 0
 decor: 1996-1997
 ankers:
-  - Jan Holderbeke
-hour: "laat"
+- Jan Holderbeke
+hour: laat
 ---
+

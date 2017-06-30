@@ -1,9 +1,11 @@
 ---
 title: Dirk Sterckx
-icon: "dirk"
+icon: dirk
 layout: anker
 birth: Herent, 25 september 1946
-bio: Dirk begon zijn carrière als journalist bij de toenmalige BRT-televisie in 1975. Hij was Europa-correspondent, eindredacteur en chef Nieuws. Sterckx verliet in 1998 de VRT voor een politieke loopbaan bij Open VLD.
+bio: Dirk begon zijn carrière als journalist bij de toenmalige BRT-televisie in 1975.
+  Hij was Europa-correspondent, eindredacteur en chef Nieuws. Sterckx verliet in 1998
+  de VRT voor een politieke loopbaan bij Open VLD.
 twitter: dirksterckx
 ---
 

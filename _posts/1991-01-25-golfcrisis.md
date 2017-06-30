@@ -1,14 +1,15 @@
 ---
-title:  "Golfcrisis"
+title: Golfcrisis
+date: 1991-01-25 00:00:00 Z
 media:
-  - type: youtube
-    id: 5ULivp8-_jA
-    starttime: 2
-    endtime: 0
+- type: youtube
+  id: 5ULivp8-_jA
+  starttime: 2
+  endtime: 0
 ankers:
-  - Siel Van der Donckt
+- Siel Van der Donckt
 decor: 1989-1994
-hour: "extra"
+hour: extra
 ---
 
 * Onderaan in beeld loopt een klokje mee.

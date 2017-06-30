@@ -1,9 +1,9 @@
 ---
-layout: default
 title: Over
-menu: over
 permalink: over/
-description: "Homo Journalius is een ode aan Het Journaal"
+layout: default
+menu: over
+description: Homo Journalius is een ode aan Het Journaal
 ---
 
 <div class="container-fluid">

@@ -1,12 +1,13 @@
 ---
-title:  "Salpeterzuur"
+title: Salpeterzuur
+date: 2017-03-31 00:00:00 Z
 media:
-  - type: youtube
-    id: qLt4KOIB1ig
-    starttime: 0
-    endtime: 0
+- type: youtube
+  id: qLt4KOIB1ig
+  starttime: 0
+  endtime: 0
 ankers:
-  - Annelies Van Herck
+- Annelies Van Herck
 decor: 2016
 ---
 

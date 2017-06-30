@@ -1,8 +1,9 @@
 ---
 title: Walter Zinzen
-icon: "walter-zinzen"
+icon: walter-zinzen
 layout: anker
-bio:  Walter ging in 1967 aan de slag bij de BRT. Hij bleef er tot aan zijn pensioen in 2002.
+bio: Walter ging in 1967 aan de slag bij de BRT. Hij bleef er tot aan zijn pensioen
+  in 2002.
 birth: Antwerpen, 16 mei 1937
 ---
 

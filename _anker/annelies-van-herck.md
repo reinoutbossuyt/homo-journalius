@@ -1,9 +1,10 @@
 ---
 title: Annelies Van Herck
-icon: "annelies"
+icon: annelies
 layout: anker
-birth: "Antwerpen, 15 april 1975"
-bio: Annelies werkt sinds december 2001 bij de openbare omroep. Ze presenteerde een tijdlang ook het reportageprogramma 'Koppen XL'.
+birth: Antwerpen, 15 april 1975
+bio: Annelies werkt sinds december 2001 bij de openbare omroep. Ze presenteerde een
+  tijdlang ook het reportageprogramma 'Koppen XL'.
 twitter: avanherck
 ---
 

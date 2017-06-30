@@ -1,14 +1,15 @@
 ---
-title:  "Sterrenavond"
+title: Sterrenavond
+date: 1990-09-01 00:00:00 Z
 media:
-  - type: youtube
-    id: 0_1timTr9Lc
-    starttime: 0
-    endtime: 0
+- type: youtube
+  id: 0_1timTr9Lc
+  starttime: 0
+  endtime: 0
 ankers:
-  - Johan Persyn
+- Johan Persyn
 decor: 1989-1994
-hour: "17:55"
+hour: '17:55'
 ---
 
 * BRT1 wordt in 1990 omgedoopt tot <a href="https://www.youtube.com/watch?v=1IMK_lGO8y0" target="_blank">TV1</a>.

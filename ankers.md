@@ -1,9 +1,10 @@
 ---
-layout: default
 title: Ankers
-menu: ankers
 permalink: ankers/
-description: "Meer dan 60 jaar na de start van Het Journaal passeerden heel wat ankers de revue. Ontdek ze hier allemaal."
+layout: default
+menu: ankers
+description: Meer dan 60 jaar na de start van Het Journaal passeerden heel wat ankers
+  de revue. Ontdek ze hier allemaal.
 ---
 
 <div class="container-fluid">

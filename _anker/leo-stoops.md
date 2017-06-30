@@ -1,9 +1,11 @@
 ---
 title: Leo Stoops
-icon: "leo"
+icon: leo
 layout: anker
 birth: Antwerpen, 10 september 1949
-bio: Leo slaagt in 1977, samen met onder andere Martine Tanghe en Paul Jambers, voor het journalistenexamen van de BRT en gaat voor de televisienieuwsdienst werken. Hij presenteert Het Journaal, werkte als verslaggever en eindredacteur.
+bio: Leo slaagt in 1977, samen met onder andere Martine Tanghe en Paul Jambers, voor
+  het journalistenexamen van de BRT en gaat voor de televisienieuwsdienst werken.
+  Hij presenteert Het Journaal, werkte als verslaggever en eindredacteur.
 ---
 
 * Leo was korte tijd advocaat op een Leuvens kantoor, maar koos voor een mediacarrière.

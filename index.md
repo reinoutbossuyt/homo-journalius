@@ -1,6 +1,7 @@
 ---
 layout: home
-description: "Homo Journalius verzamelt oude Journaal-fragmenten, triviale weetjes over nieuwsdecors en de Journaalankers van 1953 tot nu."
+description: Homo Journalius verzamelt oude Journaal-fragmenten, triviale weetjes
+  over nieuwsdecors en de Journaalankers van 1953 tot nu.
 ---
 
 <div class="hero">

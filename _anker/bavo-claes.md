@@ -1,12 +1,15 @@
 ---
 title: Bavo Claes
-icon: "bavo"
+icon: bavo
 layout: anker
 birth: Boom, 8 september 1949
-bio: Bavo Claes was een gerespecteerd nieuwsanker. Hij verliet de VRT in 2005 na hartproblemen. Hij werkte 30 jaar voor de openbare omroep.
+bio: Bavo Claes was een gerespecteerd nieuwsanker. Hij verliet de VRT in 2005 na hartproblemen.
+  Hij werkte 30 jaar voor de openbare omroep.
 quotes:
-  - quote: "Dat was het. Ik neem afscheid van u. Ik wens u nog een hele goeie nacht en een mooi weekend."
-    source: De laatste woorden van Bavo als anker van het laatavondjournaal op vrijdag 30 september 2005.
+- quote: Dat was het. Ik neem afscheid van u. Ik wens u nog een hele goeie nacht en
+    een mooi weekend.
+  source: De laatste woorden van Bavo als anker van het laatavondjournaal op vrijdag
+    30 september 2005.
 website: www.bavoclaes.be
 ---
 

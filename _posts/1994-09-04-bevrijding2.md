@@ -1,14 +1,15 @@
 ---
-title:  "Bevrijding"
+title: Bevrijding
+date: 1994-09-04 00:00:00 Z
 media:
-  - type: youtube
-    id: -H75UCgp_zo
-    starttime: 2
-    endtime: 0
-decor: "1989-1994"
+- type: youtube
+  id: "-H75UCgp_zo"
+  starttime: 2
+  endtime: 0
+decor: 1989-1994
 ankers:
-  - Martine Tanghe
-hour: "19:30"
+- Martine Tanghe
+hour: '19:30'
 startime: 2
 ---
 

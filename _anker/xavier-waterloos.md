@@ -1,6 +1,6 @@
 ---
 title: Xavier Waterloos
-icon: "xavier"
+icon: xavier
 layout: anker
 bio: Xavier was journaalanker en later gevierd reportagemaker bij Panorama.
 ---

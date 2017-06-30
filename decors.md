@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Over
-menu: decors
 permalink: decors/
+layout: default
+menu: decors
 ---
 
 <div class="container-fluid">

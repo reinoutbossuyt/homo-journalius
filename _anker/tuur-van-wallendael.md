@@ -1,11 +1,13 @@
 ---
 title: Tuur Van Wallendael
-icon: "tuur"
+icon: tuur
 layout: anker
 birth: Borgerhout, 29 september 1938 - Antwerpen, 18 november 2009
 quotes:
-  - quote: "Allé Bavo, godverdomme"
-    source: "Naar aanleiding van zijn dood werden de klassieke beelden te zien waarop Van Wallendael te zien is op het strand van Zeebrugge, scheldend op collega Bavo Claes."
+- quote: Allé Bavo, godverdomme
+  source: Naar aanleiding van zijn dood werden de klassieke beelden te zien waarop
+    Van Wallendael te zien is op het strand van Zeebrugge, scheldend op collega Bavo
+    Claes.
 bio: Tuur was nieuwslezer en werd later gevierd reportagemaker bij Panorama.
 ---
 

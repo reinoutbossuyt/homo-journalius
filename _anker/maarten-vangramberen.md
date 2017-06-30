@@ -1,9 +1,10 @@
 ---
 title: Maarten Vangramberen
-icon: "maarten"
+icon: maarten
 layout: anker
 quote: Aarschot, 17 november 1978
-bio: Sporza-journalist Maarten Vangramberen sprong eind 2016 eventjes bij voor een paar collega's die afwezig zijn voor het presenteren van Het Journaal.
+bio: Sporza-journalist Maarten Vangramberen sprong eind 2016 eventjes bij voor een
+  paar collega's die afwezig zijn voor het presenteren van Het Journaal.
 twitter: mvangramberen
 ---
 

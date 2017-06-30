@@ -1,6 +1,6 @@
 ---
 title: Bart Schols
-icon: "bart"
+icon: bart
 layout: anker
 birth: Aarschot, 12 maart 1974
 bio: Van 2013 tot 2015 presenteerde Bart het Journaal, ter vervanging van Jan Becaus.
