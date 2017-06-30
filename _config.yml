@@ -31,8 +31,8 @@ defaults:
     layout: anker
 email: homo.journalius@gmail.com
 description: Homo Journalius kijkt met grote ogen naar Het Journaal
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 markdown: kramdown
 exclude:
 - Gemfile
