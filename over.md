@@ -22,6 +22,8 @@ description: Homo Journalius is een ode aan Het Journaal
 
 <p>Zo brengt het hulde aan een dagelijkse live-uitzending waarin <a href="/1988/08/29/studio.html"><span class="text-link">al&nbsp;eens</span></a> <a href="/1997/09/01/bommelding.html"><span class="text-link">iets&nbsp;durft</span></a> <a href="/2012/07/18/honderd.html"><span class="text-link">fout te lopen</span></a>. Het focust op de triviale weetjes achter de schermen en staat stil bij de bijzonderheden die anders snel vergeten raken.</p>
 
+<p>Met dank aan Wim Van den Broeck, journaalfan van het eerste uur, voor het vervolledigen van de informatie over de verschillende decors.</p>
+
 </div>
 
 <div class="col-sm-5">
