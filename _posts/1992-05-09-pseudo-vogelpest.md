@@ -12,3 +12,4 @@ decor: 1989-1994
 hour: '18:00'
 ---
 
+* Op <span class="moment-inline seek" data-sec="504">08:25</span> wordt een vooruitblik gegeven op het Eurovisiesongfestival 1992, later die avond.
