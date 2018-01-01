@@ -1,13 +1,13 @@
 ---
 title: Repetitie
-date: 2013-12-21 00:00:00 Z
+date: 2013-12-15 00:00:00 Z
 media:
 - type: youtube
-  id: fm2H9VU9U24
+  id: km7iJU0OeQU
   starttime: 0
   endtime: 0
 ankers:
-- Hanne Decoutere
+- Bart Schols
 decor: 2013-2016
 hour: Laat
 ---

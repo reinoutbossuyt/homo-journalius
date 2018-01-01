@@ -7,8 +7,7 @@ media:
   starttime: 0
   endtime: 0
 ankers:
-- Siel Van Der Donckt
+- Siel Van der Donckt
 decor: 1989-1994
 hour: '19:30'
 ---
-

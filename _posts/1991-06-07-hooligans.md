@@ -1,5 +1,5 @@
 ---
-title: Golfcrisis
+title: Hooligans
 date: 1991-06-07 00:00:00 Z
 media:
 - type: youtube
@@ -11,4 +11,3 @@ ankers:
 decor: 1989-1994
 hour: laat
 ---
-

@@ -1,5 +1,5 @@
 ---
-title: Dirk Frimout
+title: Eurodisney
 date: 1992-04-11 00:00:00 Z
 media:
 - type: youtube
@@ -11,4 +11,3 @@ ankers:
 - Jan Holderbeke
 hour: laat
 ---
-

@@ -7,7 +7,7 @@ media:
   starttime: 0
   endtime: 0
 decor: 2002-2008
-anker:
+ankers:
 - Freek Braeckman
 hour: laat
 ---

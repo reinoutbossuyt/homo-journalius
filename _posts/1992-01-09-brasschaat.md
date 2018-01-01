@@ -1,5 +1,5 @@
 ---
-title: Formatie
+title: Brasschaat
 date: 1992-01-09 00:00:00 Z
 media:
 - type: youtube
@@ -11,4 +11,3 @@ ankers:
 - Johan Tas
 hour: laat
 ---
-

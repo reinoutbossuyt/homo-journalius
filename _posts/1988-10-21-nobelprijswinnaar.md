@@ -1,5 +1,5 @@
 ---
-title: Cote d'or
+title: Nobelprijswinnaar
 date: 1988-10-21 00:00:00 Z
 media:
 - type: youtube
@@ -11,4 +11,3 @@ ankers:
 - Reddy De Mey
 hour: laat
 ---
-
