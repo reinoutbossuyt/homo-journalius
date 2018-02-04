@@ -12,6 +12,7 @@ quotes:
 - quote: Toen ik hier tijdens de eerste maanden de telefoon opnam, werd me vaak gevraagd
     of ze met een journalist konden spreken. Toen ik antwoordde dat ik journaliste
     was, viel er altijd een stilte.
+slimste_deelnames: 3
 ---
 
 * In de jaren '80 neemt Martine een jaar loopbaanonderbreking om met haar man, Canvas-producer Jos Van Hemelrijck, een zeiltocht te maken op de Atlantische Oceaan.
@@ -22,11 +23,14 @@ quotes:
 
 * In 2005 leest ze voor de eerste keer <cite>Het Groot Dictee der Nederlandse Taal</cite> voor. Een job die later wordt overgenomen door <a href="/anker/freek-braeckman"><em>Freek Braeckman</em></a>.
 
+* Hield het in 2006 drie afleveringen vol in <cite>De Slimste Mens Ter Wereld</cite>
+
 * In 2008 krijgt Martine en eervolle vermelding als "International TV personality of the year".
 
 * Van 2008 tot 2011 presenteert ze samen met Kobe Ilsen ook het consumentenprogramma <cite>Volt</cite>.
 
 * Eind 2011 werd er borstkanker vastgesteld bij het nieuwsanker, waardoor ze bijna een jaar van het scherm verdween. Ze maakt haar terugkeer tijdens de verkiezingsshow in 2012.
+
 
 <div class="alt">
   {% include youtube.html youtubeid="ogCvwSK0RkE" ratio="16_9" %}

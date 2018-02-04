@@ -12,5 +12,5 @@ quotes:
 bio: Goedele stapte in 2000 over naar de televisienieuwsredactie. Ze debuteert in
   september 2007 als nieuwslezeres.
 twitter: GoedeleWachters
+start: 2007
 ---
-

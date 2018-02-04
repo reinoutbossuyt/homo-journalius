@@ -9,6 +9,8 @@ quotes:
     daar dan voor vragen.
   source: Wim De Vilder in Humo
 twitter: https://twitter.com/WimDeVilder
+start: 1999
+stop: 
 ---
 
 * Wim was 10 jaar lang het gezicht van het reportageprogramma <cite>Koppen</cite>.

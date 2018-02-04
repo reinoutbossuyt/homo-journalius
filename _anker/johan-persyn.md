@@ -6,6 +6,8 @@ quotes:
 - quote: Toen noemde men mij het zandmannetje van de VRT.
   source: Persyn was jarenlang vast anker van het laatavondnieuws.
 bio: Johan Persyn was van 1989 tot 1993 nieuwslezer, vooral van het laatavondnieuws.
+start: 1989
+stop: 1993
 ---
 
 * Persyn werd plots aan de kant geschoven als nieuwslezer. Daarover zegt{% fn %} hij later:

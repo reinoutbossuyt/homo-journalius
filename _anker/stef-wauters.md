@@ -13,6 +13,8 @@ quotes:
     Met een flinke fles wijn op. Dan gaat de telefoon. ''Stef, kan je hier om 5 uur
     zijn?'' Ja. Geslapen of niet.'
   source: Stef in een interview in Het Laatste Nieuws
+start: 1999
+stop: 2003
 ---
 
 * Stef maakte zijn debuut op het scherm in 1993 als sportjournalist tijdens de ochtendjournaals over de Wereldbeker voetbal in de Verenigde Staten.

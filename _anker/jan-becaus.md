@@ -9,6 +9,8 @@ quotes:
   source: Jan Becaus in zijn afscheidinterviews
 bio: Jan was 28 jaar nieuwsanker van Het Journaal en maakt na zijn pensioen de verrassende
   overstap naar de N&#8209;VA.
+start: 1985
+stop: 2013
 ---
 
 * Het fameuze Becaus-Engels: 'Geen mens die mooier 'Dow Jones' kan uitspreken'. Of 'Usain Bolt'. Geen vulgair Amerikaans voor Jan, wel gepolijst Brits.

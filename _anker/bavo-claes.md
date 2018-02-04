@@ -11,6 +11,8 @@ quotes:
   source: De laatste woorden van Bavo als anker van het laatavondjournaal op vrijdag
     30 september 2005.
 website: www.bavoclaes.be
+start: 1975
+stop: 2005
 ---
 
 * Bavo Claes presenteerde het journaal bij het ongeluk met de Herald of Free Enterprise in 1987. Hij nam toen een erg kritisch interview af met toenmalig minister van Verkeer Herman De Croo:

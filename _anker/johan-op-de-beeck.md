@@ -5,6 +5,8 @@ layout: anker
 birth: Duffel, 15 maart 1957
 bio: Johan begon z'n loopbaan als journalist in 1980.
 twitter: JohanOpdeBeeck
+start: 1980
+stop: 1990
 ---
 
 * Johan verlaat de VRT in 1990. Na zijn vertrek richt Johan z'n eigen mediabedrijf op.

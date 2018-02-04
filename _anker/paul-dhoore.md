@@ -7,6 +7,8 @@ bio: Paul werkte vanaf 1983 voor de toenmalige BRT. In 1987 kreeg hij een vaste 
   bij Het Journaal. Hij was van 1991 tot 2001 nieuwslezer. Paul nam eind 2007 ontslag
   bij de VRT om een wekelijkse economische nieuwsbrief uit te geven, maar bleef beursspecialist.
   Sinds 2011 is hij financieel expert voor Het Nieuws (VTM).
+start: 1991
+stop: 2001
 ---
 
 * Paul ontsnapte niet aan enige controverse toen bleek dat hij zelf Fortisaandelen bezat en in zijn beursnieuwsbrief Fortisaandelen had aangeraden.

@@ -8,6 +8,8 @@ bio: Lieven begint op 1 januari 1988 bij de nieuwsdienst van de radio en stapt i
   presenteert hij Ter Zake. Bij de hervorming van Ter Zake in 2015 verhuist Verstraete
   opnieuw naar Het Journaal.
 twitter: lievenverstrae1
+slimste_deelnames: 11
+start: 2015
 ---
 
 * Lieven presenteert ook het economisch programma <cite>De Vrije Markt</cite>.
