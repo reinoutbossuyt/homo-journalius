@@ -1450,3 +1450,164 @@ figure {
 .fb-page span iframe[style] {
     width: 100% !important;
 }
+
+.sets-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.set-link {
+  background-color: #F5F4EF;
+  padding: 6px 9px;
+  color: #000;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.set-link:hover {
+  background-color: #000;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.set-visual {
+  padding-top: 62.5%;
+  background-image: url(/img/interieurs/1953.svg);
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 90vh;
+}
+
+.set-title {
+
+}
+/*
+.set-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.set-grid-item {
+  width: 50%;
+  flex-grow: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  a {
+    flex: 1;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    display: flex;
+  }
+}
+
+.set-grid-item-text {
+  width: 25%;
+  flex-grow: 1;
+  background: #93806c1a;
+  position: relative;
+
+  .text-link {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.set-grid-item-image {
+  width: 75%;
+  flex-grow: 1;
+}
+*/
+
+.set-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.set-list-item-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  margin-bottom: 2.5rem;
+  transition: all 1s ease;
+
+  &:before {
+    background-color: #000;
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+}
+
+.set-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: "";
+    border-left: 1px solid #ccc;
+    bottom: 0;
+    height: 50px;
+    left: 50%;
+  }
+}
+
+.set-list-item-image {
+  width: 50%;
+  flex-grow: 1;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.set-list-item-text {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.set-list-item-intro {
+  transition: all 2s ease;
+}
+
+.set-list-item.odd {
+  .set-list-item-image {
+    order: 0;
+  }
+  .set-list-item-text {
+    order: 1;
+    padding-left: 2rem;
+  }
+}
+
+.set-list-item.visible {
+  .set-list-item-title,
+  .set-list-item-intro {
+    margin-left: -1rem;
+  }
+}
+
+.set-list-item.even {
+
+  .set-list-item-text {
+    text-align: right;
+  }
+}

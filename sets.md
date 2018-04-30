@@ -10,20 +10,21 @@ menu: sets
 
 <p class="lead">Het Journaal wisselde doorheen de jaren verschillende keren van vormgeving en decor. Ontdek ze hier allemaal.</p>
 
-<div class="sets">
-  <ul class="timeline-list">
-    {% for set in site.set %}
-    <li class="timeline-item">
-       <a href="{{set.url}}">
-          <span class="text-link">{{set.title}}</span>
-          <figure class="timeline-image">
-            {% capture icon %}/svg/decors/{{set.icon}}.svg{% endcapture %}
-            {% include {{icon}} %}
-          </figure>
-        </a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="set-list">
+  {% for set in site.set %}
+  <li class="set-list-item {% cycle 'odd', 'even'%}" >
+    <div class="set-list-item-text">
+      <h2 class="set-list-item-title"><span class="text-link">{{set.title}}</span></h2>
+      <p class="set-list-item-intro">{{set.intro}}</p>
+      <p><a href="{{set.url}}"><span class="text-link">{{set.link}}</span></a></p>
+    </div>
+    <figure class="set-list-item-image">
+      <a href="{{set.url}}">
+        {% include_relative /img/interieurs/{{set.icon}}.svg %}
+      </a>
+    </figure>
+  </li>
+  {% endfor %}
+</ul>
 
 </div>
